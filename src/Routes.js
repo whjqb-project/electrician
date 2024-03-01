@@ -54,6 +54,12 @@ import {
   AccountSecurity as AccountSecurityView,
   NotFound as NotFoundView,
   NotFoundCover as NotFoundCoverView,
+  FaultFinding as FaultFindingView,
+  PowerpointInstallation as PowerpointInstallationView,
+  EVChargerInstallation as EVChargerInstallationView,
+  WiringAndRewiring as WiringAndRewiringView,
+  SwitchRCDInstallation as SwitchRCDInstallationView,
+  SmokeAlarmsInstallation as SmokeAlarmsInstallationView,
 } from './views';
 
 // Documentation pages
@@ -79,6 +85,116 @@ const Routes = () => {
     <Switch>
       <Route exact path="/" render={() => <IndexView />} />
       <Route exact path="/home" render={() => <HomeView />} />
+      <Route
+        exact
+        path="/fault-finding"
+        render={() => <FaultFindingView />}
+      />
+      <Route
+        exact
+        path="/powerpoint-installation"
+        render={() => <PowerpointInstallationView />}
+      />
+      <Route
+        exact
+        path="/ev-charger-installation"
+        render={() => <EVChargerInstallationView />}
+      />
+      <Route
+        exact
+        path="/wiring-and-rewiring"
+        render={() => <WiringAndRewiringView />}
+      />
+      <Route
+        exact
+        path="/switch-rcd-installation"
+        render={() => <SwitchRCDInstallationView />}
+      />
+      <Route
+        exact
+        path="/smoke-alarms-installation"
+        render={() => <SmokeAlarmsInstallationView />}
+      />
+      <Route
+        exact
+        path="/ceiling-fan-installation"
+        render={() => <SmokeAlarmsInstallationView />}
+      />
+      <Route
+        exact
+        path="/switchboard-upgrade"
+        render={() => <WiringAndRewiringView />}
+      />
+      <Route
+        exact
+        path="/emergency-electrician"
+        render={() => <WiringAndRewiringView />}
+      />
+      <Route
+        exact
+        path="/data-network-cabling"
+        render={() => <WiringAndRewiringView />}
+      />
+      <Route
+        exact
+        path="/exhaust-fan-installation"
+        render={() => <WiringAndRewiringView />}
+      />
+      <Route
+        exact
+        path="/commercial-electrical-fitouts"
+        render={() => <WiringAndRewiringView />}
+      />
+      <Route
+        exact
+        path="/mammoth-fans-auckland"
+        render={() => <WiringAndRewiringView />}
+      />
+      <Route
+        exact
+        path="/tv-wall-mounting"
+        render={() => <WiringAndRewiringView />}
+      />
+      <Route
+        exact
+        path="/tv-antennas-outlets"
+        render={() => <WiringAndRewiringView />}
+      />
+      <Route
+        exact
+        path="/commercial-ev-charging-installtion"
+        render={() => <WiringAndRewiringView />}
+      />
+      <Route
+        exact
+        path="/preventative-electrical-maintenance"
+        render={() => <WiringAndRewiringView />}
+      />
+      <Route
+        exact
+        path="/commercial-data-network-cabling"
+        render={() => <WiringAndRewiringView />}
+      />
+      <Route
+        exact
+        path="/commercial-switchboard-panels"
+        render={() => <WiringAndRewiringView />}
+      />
+      <Route
+        exact
+        path="/surge-protection"
+        render={() => <WiringAndRewiringView />}
+      />
+      <Route
+        exact
+        path="/fire-alarm-systems"
+        render={() => <WiringAndRewiringView />}
+      />
+      <Route
+        exact
+        path="/three-phase-power-installation"
+        render={() => <WiringAndRewiringView />}
+      />
       <Route
         exact
         path="/customers"

@@ -73,6 +73,219 @@ const pages = {
       href: '/e-commerce',
     },
   ],
+  electrical: [
+    {
+      title: 'Electrical Fault Finding',
+      href: '/fault-finding',
+    },
+    {
+      title: 'Powerpoint Installation',
+      href: '/powerpoint-installation',
+    },
+    {
+      title: 'EV Charger Installations',
+      href: '/ev-charger-installation',
+    },
+    {
+      title: 'Electrical Wiring and Rewiring',
+      href: '/wiring-and-rewiring',
+    },
+    {
+      title: 'Switch & RCD Installation',
+      href: '/switch-rcd-installation',
+    },
+    {
+      title: 'Smoke Alarms Installation',
+      href: '/smoke-alarms-installation',
+    },
+    {
+      title: 'Ceiling Fan Installation',
+      href: '/ceiling-fan-installation',
+    },
+    {
+      title: 'Switchboard Upgrade',
+      href: '/switchboard-upgrade',
+    },
+    {
+      title: '24/7 Emergency Electrician',
+      href: '/emergency-electrician',
+    },
+    {
+      title: 'Data & Network Cabling',
+      href: '/data-network-cabling',
+    },
+    {
+      title: 'Exhaust Fan Installation',
+      href: '/exhaust-fan-installation',
+    },
+    {
+      title: 'Quality Commercial Electrical Fitouts',
+      href: '/commercial-electrical-fitouts',
+    },
+    {
+      title: 'Mammoth Fans Auckland',
+      href: '/mammoth-fans-auckland',
+    },
+
+    {
+      title: 'TV Wall Mounting',
+      href: '/tv-wall-mounting',
+    },
+    {
+      title: 'TV Antennas and Outlets',
+      href: '/tv-antennas-outlets',
+    },
+    {
+      title: 'Commercial EV Charging Installation',
+      href: '/commercial-ev-charging-installtion',
+    },
+    {
+      title: 'Preventative Electrical Maintenance',
+      href: '/preventative-electrical-maintenance',
+    },
+    {
+      title: 'Commercial Data & Network Cabling',
+      href: '/commercial-data-network-cabling',
+    },
+    {
+      title: 'Commercial Switchboard & Panels',
+      href: '/commercial-switchboard-panels',
+    },
+    {
+      title: 'Surge Protection',
+      href: '/surge-protection',
+    },
+    {
+      title: 'Fire Alarm Systems',
+      href: '/fire-alarm-systems',
+    },
+    {
+      title: 'Three Phase Power Installation',
+      href: '/three-phase-power-installation',
+    },
+  ],
+  lighting: [
+    {
+      title: 'Outdoor Security Lighting Installation',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Garden Lighting Installation',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Exterior Lighting Installation',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Pendant Lighting Installation',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'LED Downlight Installation',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Emergency & Exit Lighting',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Warehouse & Industrial Lighting',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Lighting Design',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Light Sourcing Services',
+      href: '/not-found-cover',
+    },
+  ],
+  cctv: [
+    {
+      title: 'Home Security Installation',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'CCTV & Security Cameras',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Home Alarm Systems',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Doorbell & Intercom Installation',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Hikvision Camera Installations',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Dahua Camera Installations',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Business Security Systems',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Commercial CCTV Systems',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Access Control Systems',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Commercial Intercom Systems',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Commercial Alarm Systems',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Commercial Alarm Monitoring',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Duress Panic Emergency Alarms',
+      href: '/not-found-cover',
+    },
+  ],
+  commercial: [
+    {
+      title: 'Business Alarm System Installation',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Commercial Electrician Auckland',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Quality Commercial Electrical Fitouts',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Business Intercom Auckland',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Expert Strata Electrician Services',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Electrical Layout Planning',
+      href: '/not-found-cover',
+    },
+    {
+      title: 'Ultimate Electrical Compliance Ensured',
+      href: '/not-found-cover',
+    },
+  ],
   company: [
     {
       title: 'Career Lising',

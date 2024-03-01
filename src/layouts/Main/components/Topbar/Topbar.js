@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import { alpha, useTheme } from '@mui/material/styles';
 import MenuIcon from '@mui/icons-material/Menu';
+import Link from '@mui/material/Link';
 
 import { NavItem } from './components';
 
@@ -11,12 +12,16 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
   const theme = useTheme();
   const { mode } = theme.palette;
   const {
-    landings: landingPages,
-    secondary: secondaryPages,
-    company: companyPages,
-    account: accountPages,
-    portfolio: portfolioPages,
-    blog: blogPages,
+    // landings: landingPages,
+    // secondary: secondaryPages,
+    // company: companyPages,
+    // account: accountPages,
+    // portfolio: portfolioPages,
+    // blog: blogPages,
+    lighting: lightingPages,
+    cctv: cctvPages,
+    electrical: electricalPages,
+    commercial: commercialPages,
   } = pages;
 
   return (
@@ -45,15 +50,75 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
         />
       </Box>
       <Box sx={{ display: { xs: 'none', md: 'flex' } }} alignItems={'center'}>
-        <Box>
+        {/* <Box>
           <NavItem
             title={'Landings'}
             id={'landing-pages'}
             items={landingPages}
             colorInvert={colorInvert}
           />
+        </Box> */}
+        <Box>
+          <NavItem
+            title={'Electrical'}
+            id={'electrical-pages'}
+            items={electricalPages}
+            colorInvert={colorInvert}
+          />
         </Box>
         <Box marginLeft={4}>
+          <NavItem
+            title={'Lighting'}
+            id={'lighting-pages'}
+            items={lightingPages}
+            colorInvert={colorInvert}
+          />
+        </Box>
+        <Box marginLeft={4}>
+          <NavItem
+            title={'CCTV Security'}
+            id={'cctv-pages'}
+            items={cctvPages}
+            colorInvert={colorInvert}
+          />
+        </Box>
+        <Box marginLeft={4}>
+          <NavItem
+            title={'Commercial'}
+            id={'commercial-pages'}
+            items={commercialPages}
+            colorInvert={colorInvert}
+          />
+        </Box>
+        <Box marginLeft={4}>
+          <Link
+            underline="none"
+            component="a"
+            href="/not-found-cover"
+            color={colorInvert ? 'common.white' : 'text.primary'}
+          >
+            About US
+          </Link>
+        </Box>
+        {/* <Box marginLeft={4}>
+          <NavItem
+            title={'About US'}
+            id={'about-pages'}
+            items={null}
+            // items={commercialPages}
+            colorInvert={colorInvert}
+          />
+        </Box>
+        <Box marginLeft={4}>
+          <NavItem
+            title={'Contact'}
+            id={'contact-pages'}
+            items={null}
+            // items={commercialPages}
+            colorInvert={colorInvert}
+          />
+        </Box> */}
+        {/* <Box marginLeft={4}>
           <NavItem
             title={'Company'}
             id={'company-pages'}
@@ -68,16 +133,16 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
             items={accountPages}
             colorInvert={colorInvert}
           />
-        </Box>
-        <Box marginLeft={4}>
+        </Box> */}
+        {/* <Box marginLeft={4}>
           <NavItem
             title={'Pages'}
             id={'secondary-pages'}
             items={secondaryPages}
             colorInvert={colorInvert}
           />
-        </Box>
-        <Box marginLeft={4}>
+        </Box>  */}
+        {/* <Box marginLeft={4}>
           <NavItem
             title={'Blog'}
             id={'blog-pages'}
@@ -92,7 +157,7 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
             items={portfolioPages}
             colorInvert={colorInvert}
           />
-        </Box>
+        </Box>  */}
         <Box marginLeft={4}>
           <Button
             variant="contained"
@@ -102,7 +167,7 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
             href="https://material-ui.com/store/items/the-front-landing-page/"
             size="large"
           >
-            Buy now
+            Free Quote
           </Button>
         </Box>
       </Box>

@@ -29,10 +29,11 @@ module.exports = {
       2,
       { 'SwitchCase': 1 },
     ],
-    'linebreak-style': [
-      'error',
-      'unix',
-    ],
+    // 'linebreak-style': [
+    //   'error',
+    //   'unix',
+    //   'windows',
+    // ],
     'quotes': [
       'error',
       'single',
@@ -45,5 +46,11 @@ module.exports = {
       'error',
       'only-multiline',
     ],
+    "no-unused-vars": [
+      "warn",
+      {
+          "varsIgnorePattern": "React"
+      }
+    ]
   },
 };
