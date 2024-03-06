@@ -16,13 +16,13 @@ const Main = () => {
   return (
     <Box>
       <Box
-        display={'flex'}
+        // display={'flex'}
         justifyContent={'space-between'}
         alignItems={{ xs: 'flex-start', sm: 'center' }}
         flexDirection={{ xs: 'column', sm: 'row' }}
       >
-        <Box display={'flex'}>
-          <Typography fontWeight={700} variant={'h4'} gutterBottom align='center'>
+        <Box marginBottom={4} alignItems="center" justifyContent="center" display="flex" >
+          <Typography fontWeight={700} variant={'h4'} gutterBottom>
             Versatile Applications of Data Cabling Services
           </Typography>
         </Box>

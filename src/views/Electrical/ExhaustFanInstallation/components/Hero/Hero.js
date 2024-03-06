@@ -26,7 +26,7 @@ const Hero = () => {
             fontWeight: 700,
           }}
         >
-          Smoke Alarms{' '}
+          Exhaust Fan{' '}
           <Typography
             color={'primary'}
             component={'span'}
@@ -43,7 +43,7 @@ const Hero = () => {
       </Box>
       <Box marginBottom={3}>
         <Typography variant="h6" component="p" color="text.secondary">
-          Your go-to local electrician for smoke alarms installation in Auckland!
+          Fresh Air Solutions: Expert Exhaust Fan Installations by Mandarin Brothers Electrical!
         </Typography>
       </Box>
       <Box
@@ -114,7 +114,7 @@ const Hero = () => {
             // key={item}
             component={LazyLoadImage}
             effect="blur"
-            src={'https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/how-to-install-a-smoke-detector-step-10.jpg'}
+            src={'https://www.familyhandyman.com/wp-content/uploads/2023/10/GettyImages-486451672.jpg?fit=700,467'}
             height={{ xs: 'auto', md: 1 }}
             maxHeight={{ xs: 300, md: 1 }}
             width={1}

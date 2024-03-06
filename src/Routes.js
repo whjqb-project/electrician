@@ -62,14 +62,11 @@ import {
   SmokeAlarmsInstallation as SmokeAlarmsInstallationView,
   CeilingFanInstallation as CeilingFanInstallationView,
   SwitchboardUpgrade as SwitchboardUpgradeView,
-  EmergencyElectrician as EmergencyElectricianView,
   DataNetworkCabling as DataNetworkCablingView,
   ExhaustFanInstallation as ExhaustFanInstallationView,
   CommercialElectricalFitouts as CommercialElectricalFitoutsView,
-  MammothFans as MammothFansView,
   TVWallMounting as TVWallMountingView,
   TVAntennasOutlets as TVAntennasOutletsView,
-  CommercialEVChargingInstallation as CommercialEVChargingInstallationView,
   PreventativeElectricalMaintenance as PreventativeElectricalMaintenanceView,
   CommercialDataNetworkCabling as CommercialDataNetworkCablingView,
   CommercialSwitchboardPannels as CommercialSwitchboardPannelsView,
@@ -141,11 +138,6 @@ const Routes = () => {
         path="/switchboard-upgrade"
         render={() => <SwitchboardUpgradeView />}
       />
-      {/* <Route
-        exact
-        path="/emergency-electrician"
-        render={() => <EmergencyElectricianView />}
-      /> */}
       <Route
         exact
         path="/data-network-cabling"
@@ -163,11 +155,6 @@ const Routes = () => {
       />
       <Route
         exact
-        path="/mammoth-fans-auckland"
-        render={() => <MammothFansView />}
-      />
-      <Route
-        exact
         path="/tv-wall-mounting"
         render={() => <TVWallMountingView />}
       />
@@ -175,11 +162,6 @@ const Routes = () => {
         exact
         path="/tv-antennas-outlets"
         render={() => <TVAntennasOutletsView />}
-      />
-      <Route
-        exact
-        path="/commercial-ev-charging-installtion"
-        render={() => <CommercialEVChargingInstallationView />}
       />
       <Route
         exact

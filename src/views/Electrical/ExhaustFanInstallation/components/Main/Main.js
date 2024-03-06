@@ -16,14 +16,14 @@ const Main = () => {
   return (
     <Box>
       <Box
-        display={'flex'}
+        // display={'flex'}
         justifyContent={'space-between'}
         alignItems={{ xs: 'flex-start', sm: 'center' }}
         flexDirection={{ xs: 'column', sm: 'row' }}
       >
-        <Box display={'flex'}>
-          <Typography fontWeight={700} variant={'h4'} gutterBottom align='center'>
-            Mandarin Brothers Electrical is your trusted smoke alarm installation professionals!
+        <Box marginBottom={4} alignItems="center" justifyContent="center" display="flex" >
+          <Typography fontWeight={700} variant={'h4'} gutterBottom>
+          Do You Need an Exhaust Fan in Your Home?
           </Typography>
         </Box>
       </Box>
@@ -32,26 +32,26 @@ const Main = () => {
         <Grid item xs={12} md={8}>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              Did you know that smoke alarms and smoke detectors are mandatory for every residential property in Auckland?
+              If you are a Auckland homeowner, you probably need an exhaust fan installation. Why?
+              Because exhaust fans are key in controlling moisture and odours in your home.
+              They help keep the air clean.
             </Typography>
           </Box>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              Using a reliable smoke alarm installer is vital to ensuring the safety of your home or business.
-              Mandarin Brothers Electrical Services can provide smoke detector and smoke alarm installation to keep your staff, colleagues and tenants safe from the risk of a fire within your building.
+              Whether it is a bathroom exhaust fan installation to stop mould or a kitchen range hood installation to manage cooking fumes, a good exhaust system is important.
             </Typography>
           </Box>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              There are two types of commonly used smoke alarm installations, being photoelectric and ionisation alarms.
-              The main difference between these smoke alarm detectors is that Photoelectric smoke alarms can sense smoke from a smouldering fire,
-              enabling early detection and allows time to control the fire or escape if necessary.
-              However, these smoke alarms are poorly equipped to sense a well-established, flaming fire.
+              In Auckland, keeping your home fresh and healthy is important. That is where Mandarin Brothers Electrical comes in.
+              We are experts in exhaust fan installation.
+
             </Typography>
           </Box>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              Ionisation smoke alarm installations by contrast can identify the presence of a flaming fire effectively but they are less able to provide early warning of a smouldering fire or potential breathing or visibility difficulties caused by heavy smoke.
+              Our team knows how to install different types of exhaust fans, from bathroom exhaust fans to kitchen range hoods. This means your home stays fresh, dry, and healthy.
             </Typography>
           </Box>
         </Grid>
@@ -60,7 +60,7 @@ const Main = () => {
             component={LazyLoadImage}
             height={1}
             width={1}
-            src={'//cdn.shopify.com/s/files/1/2235/4833/files/How_to_Install_a_Smoke_Alarm_Without_Drilling_2.png?v=1536571266'}
+            src={'https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/how-to-replace-or-install-an-easy-install-bath-fan-2022-hero.jpg'}
             alt="..."
             effect="blur"
             boxShadow={3}

@@ -106,10 +106,6 @@ const pages = {
       title: 'Switchboard Upgrade',
       href: '/switchboard-upgrade',
     },
-    // {
-    //   title: '24/7 Emergency Electrician',
-    //   href: '/emergency-electrician',
-    // },
     {
       title: 'Data & Network Cabling',
       href: '/data-network-cabling',
@@ -119,14 +115,13 @@ const pages = {
       href: '/exhaust-fan-installation',
     },
     {
-      title: 'Quality Commercial Electrical Fitouts',
-      href: '/commercial-electrical-fitouts',
+      title: 'Home Theatre Installation',
+      href: '/home-theatre-installation',
     },
     {
-      title: 'Mammoth Fans Auckland',
-      href: '/mammoth-fans-auckland',
+      title: 'Smart Home System Installation',
+      href: '/smart-home-installation',
     },
-
     {
       title: 'TV Wall Mounting',
       href: '/tv-wall-mounting',
@@ -136,12 +131,12 @@ const pages = {
       href: '/tv-antennas-outlets',
     },
     {
-      title: 'Commercial EV Charging Installation',
-      href: '/commercial-ev-charging-installtion',
-    },
-    {
       title: 'Preventative Electrical Maintenance',
       href: '/preventative-electrical-maintenance',
+    },
+    {
+      title: 'Quality Commercial Electrical Fitouts',
+      href: '/commercial-electrical-fitouts',
     },
     {
       title: 'Commercial Data & Network Cabling',

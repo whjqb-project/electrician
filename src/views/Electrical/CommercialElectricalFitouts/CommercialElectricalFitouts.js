@@ -13,7 +13,6 @@ import {
   Hero,
   Main as MainSection,
   WhoWeAre,
-  PricingCompareTable,
 } from './components';
 
 const CommercialElectricalFitouts = () => {
@@ -38,13 +37,8 @@ const CommercialElectricalFitouts = () => {
       </Box>
       <Divider />
       <Container>
-        <PricingCompareTable />
+        <MainSection />
       </Container>
-      <Box bgcolor={theme.palette.alternate.main}>
-        <Container>
-          <MainSection />
-        </Container>
-      </Box>
       <AppBar
         position="fixed"
         sx={{
