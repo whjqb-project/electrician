@@ -58,7 +58,7 @@ const Footer = () => {
                 color="text.primary"
                 variant={'subtitle2'}
               >
-                Documentation
+                Schedule an electrician
               </Link>
             </Box>
             <Box marginTop={1}>
@@ -70,7 +70,7 @@ const Footer = () => {
                 href="https://material-ui.com/store/items/the-front-landing-page/"
                 size="small"
               >
-                Purchase now
+                Schedule an electrician
               </Button>
             </Box>
           </Box>

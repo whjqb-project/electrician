@@ -17,6 +17,10 @@ const SidebarNav = ({ pages }) => {
     account: accountPages,
     portfolio: portfolioPages,
     blog: blogPages,
+    electrical: electicalPages,
+    lighting: lightingPages,
+    cctv: cctvPages,
+    commercial: commercialPages,
   } = pages;
 
   return (
@@ -43,33 +47,16 @@ const SidebarNav = ({ pages }) => {
       </Box>
       <Box paddingX={2} paddingY={2}>
         <Box>
-          <NavItem title={'Landings'} items={landingPages} />
+          <NavItem title={'Electrical'} items={electicalPages} />
         </Box>
         <Box>
-          <NavItem title={'Company'} items={companyPages} />
+          <NavItem title={'Lighting'} items={lightingPages} />
         </Box>
         <Box>
-          <NavItem title={'Pages'} items={secondaryPages} />
+          <NavItem title={'CCTV'} items={cctvPages} />
         </Box>
         <Box>
-          <NavItem title={'Account'} items={accountPages} />
-        </Box>
-        <Box>
-          <NavItem title={'Blog'} items={blogPages} />
-        </Box>
-        <Box>
-          <NavItem title={'Portfolio'} items={portfolioPages} />
-        </Box>
-        <Box marginTop={2}>
-          <Button
-            size={'large'}
-            variant="outlined"
-            fullWidth
-            component="a"
-            href="/docs/introduction"
-          >
-            Documentation
-          </Button>
+          <NavItem title={'Commercial'} items={commercialPages} />
         </Box>
         <Box marginTop={1}>
           <Button
@@ -81,7 +68,7 @@ const SidebarNav = ({ pages }) => {
             target="blank"
             href="https://material-ui.com/store/items/the-front-landing-page/"
           >
-            Purchase now
+            Free Quote
           </Button>
         </Box>
       </Box>

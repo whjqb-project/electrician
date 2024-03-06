@@ -18,6 +18,10 @@ const Topbar = ({ onSidebarOpen, pages }) => {
     account: accountPages,
     portfolio: portfolioPages,
     blog: blogPages,
+    electrical: electicalPages,
+    lighting: lightingPages,
+    cctv: cctvPages,
+    commercial: commercialPages,
   } = pages;
 
   return (
@@ -48,55 +52,31 @@ const Topbar = ({ onSidebarOpen, pages }) => {
       <Box sx={{ display: { xs: 'none', md: 'flex' } }} alignItems={'center'}>
         <Box>
           <NavItem
-            title={'Landings'}
-            id={'landing-pages'}
-            items={landingPages}
+            title={'Electrical'}
+            id={'electrical-pages'}
+            items={electicalPages}
           />
         </Box>
         <Box marginLeft={2.5}>
           <NavItem
-            title={'Company'}
-            id={'company-pages'}
-            items={companyPages}
+            title={'Lighting'}
+            id={'lighting-pages'}
+            items={lightingPages}
           />
         </Box>
         <Box marginLeft={2.5}>
           <NavItem
-            title={'Account'}
-            id={'account-pages'}
-            items={accountPages}
+            title={'CCTV'}
+            id={'cctv-pages'}
+            items={cctvPages}
           />
         </Box>
         <Box marginLeft={2.5}>
           <NavItem
-            title={'Pages'}
-            id={'secondary-pages'}
-            items={secondaryPages}
+            title={'Commercial'}
+            id={'commercial-pages'}
+            items={commercialPages}
           />
-        </Box>
-        <Box marginLeft={2.5}>
-          <NavItem
-            title={'Blog'}
-            id={'blog-pages'}
-            items={blogPages}
-          />
-        </Box>
-        <Box marginLeft={2.5}>
-          <NavItem
-            title={'Portfolio'}
-            id={'portfolio-pages'}
-            items={portfolioPages}
-          />
-        </Box>
-        <Box marginLeft={2.5}>
-          <Link
-            underline="none"
-            component="a"
-            href="/docs/introduction"
-            color="text.primary"
-          >
-            Docs
-          </Link>
         </Box>
         <Box marginLeft={2.5}>
           <ThemeModeToggler />
@@ -110,7 +90,7 @@ const Topbar = ({ onSidebarOpen, pages }) => {
             href="https://material-ui.com/store/items/the-front-landing-page/"
             size="large"
           >
-            Buy now
+            Free Qoute
           </Button>
         </Box>
       </Box>

@@ -2,21 +2,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import { useTheme } from '@mui/material/styles';
-
+// import { useTheme } from '@mui/material/styles';
+import logo from './logo.png';
 import NavItem from './components/NavItem';
 
 const SidebarNav = ({ pages }) => {
-  const theme = useTheme();
-  const { mode } = theme.palette;
+  // const theme = useTheme();
+  // const { mode } = theme.palette;
 
   const {
-    landings: landingPages,
-    secondary: secondaryPages,
-    company: companyPages,
-    account: accountPages,
-    portfolio: portfolioPages,
-    blog: blogPages,
+    electrical: electricalPages,
+    lighting: lightingPages,
+    cctv: cctvPages,
+    commercial: commercialPages,
   } = pages;
 
   return (
@@ -26,10 +24,10 @@ const SidebarNav = ({ pages }) => {
           display={'flex'}
           component="a"
           href="/"
-          title="theFront"
+          title="Mandarin Brothers Electrical"
           width={{ xs: 100, md: 120 }}
         >
-          <Box
+          {/* <Box
             component={'img'}
             src={
               mode === 'light'
@@ -39,37 +37,27 @@ const SidebarNav = ({ pages }) => {
             height={1}
             width={1}
           />
+        </Box> */}
+          <Box
+            component={'img'}
+            src={logo}
+            height={1}
+            width={220}
+          />
         </Box>
       </Box>
       <Box paddingX={2} paddingY={2}>
         <Box>
-          <NavItem title={'Landings'} items={landingPages} />
+          <NavItem title={'Electrical'} items={electricalPages} />
         </Box>
         <Box>
-          <NavItem title={'Company'} items={companyPages} />
+          <NavItem title={'Lighting'} items={lightingPages} />
         </Box>
         <Box>
-          <NavItem title={'Pages'} items={secondaryPages} />
+          <NavItem title={'CCTV Security'} items={cctvPages} />
         </Box>
         <Box>
-          <NavItem title={'Account'} items={accountPages} />
-        </Box>
-        <Box>
-          <NavItem title={'Blog'} items={blogPages} />
-        </Box>
-        <Box>
-          <NavItem title={'Portfolio'} items={portfolioPages} />
-        </Box>
-        <Box marginTop={2}>
-          <Button
-            size={'large'}
-            variant="outlined"
-            fullWidth
-            component="a"
-            href="/docs/introduction"
-          >
-            Documentation
-          </Button>
+          <NavItem title={'Commercial'} items={commercialPages} />
         </Box>
         <Box marginTop={1}>
           <Button
@@ -81,7 +69,7 @@ const SidebarNav = ({ pages }) => {
             target="blank"
             href="https://material-ui.com/store/items/the-front-landing-page/"
           >
-            Purchase now
+            Free Qoute
           </Button>
         </Box>
       </Box>

@@ -4,11 +4,12 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
-import { useTheme } from '@mui/material/styles';
+// import { useTheme } from '@mui/material/styles';
+import logo from './logo.png';
 
 const Footer = () => {
-  const theme = useTheme();
-  const { mode } = theme.palette;
+  // const theme = useTheme();
+  // const { mode } = theme.palette;
 
   return (
     <Grid container spacing={2}>
@@ -24,10 +25,10 @@ const Footer = () => {
             display={'flex'}
             component="a"
             href="/"
-            title="theFront"
+            title="Mandarin Brothers Electrical"
             width={80}
           >
-            <Box
+            {/* <Box
               component={'img'}
               src={
                 mode === 'light'
@@ -36,6 +37,13 @@ const Footer = () => {
               }
               height={1}
               width={1}
+            /> */}
+            <Box
+              component={'img'}
+              src={logo}
+              height={1}
+              width={200}
+              marginLeft={{xs: -8, sm: 0}}
             />
           </Box>
           <Box display="flex" flexWrap={'wrap'} alignItems={'center'}>
@@ -50,17 +58,6 @@ const Footer = () => {
                 Home
               </Link>
             </Box>
-            <Box marginTop={1} marginRight={2}>
-              <Link
-                underline="none"
-                component="a"
-                href="/docs/introduction"
-                color="text.primary"
-                variant={'subtitle2'}
-              >
-                Documentation
-              </Link>
-            </Box>
             <Box marginTop={1}>
               <Button
                 variant="outlined"
@@ -70,7 +67,7 @@ const Footer = () => {
                 href="https://material-ui.com/store/items/the-front-landing-page/"
                 size="small"
               >
-                Purchase now
+                Schedule an electrician
               </Button>
             </Box>
           </Box>
@@ -83,9 +80,9 @@ const Footer = () => {
           color="text.secondary"
           gutterBottom
         >
-          &copy; theFront. 2021, Maccarian. All rights reserved
+          &copy; Mandarin Brothers Electrical. 2024. All rights reserved
         </Typography>
-        <Typography
+        {/* <Typography
           align={'center'}
           variant={'caption'}
           color="text.secondary"
@@ -95,7 +92,7 @@ const Footer = () => {
           our authorised service providers may use cookies for storing
           information to help provide you with a better, faster and safer
           experience and for marketing purposes.
-        </Typography>
+        </Typography> */}
       </Grid>
     </Grid>
   );

@@ -5,12 +5,13 @@ import Button from '@mui/material/Button';
 import { alpha, useTheme } from '@mui/material/styles';
 import MenuIcon from '@mui/icons-material/Menu';
 import Link from '@mui/material/Link';
+import logo from './logo.png';
 
 import { NavItem } from './components';
 
 const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
   const theme = useTheme();
-  const { mode } = theme.palette;
+  // const { mode } = theme.palette;
   const {
     // landings: landingPages,
     // secondary: secondaryPages,
@@ -35,10 +36,10 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
         display={'flex'}
         component="a"
         href="/"
-        title="theFront"
+        title="Mandarin Brothers Electrical"
         width={{ xs: 100, md: 120 }}
       >
-        <Box
+        {/* <Box
           component={'img'}
           src={
             (mode === 'light' && !colorInvert)
@@ -47,6 +48,13 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
           }
           height={1}
           width={1}
+        /> */}
+        <Box 
+          // marginTop={1}
+          component={'img'}
+          src={logo}
+          height={1}
+          width={{ xs: 240, md: 300 }}
         />
       </Box>
       <Box sx={{ display: { xs: 'none', md: 'flex' } }} alignItems={'center'}>

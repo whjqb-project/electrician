@@ -60,6 +60,22 @@ import {
   WiringAndRewiring as WiringAndRewiringView,
   SwitchRCDInstallation as SwitchRCDInstallationView,
   SmokeAlarmsInstallation as SmokeAlarmsInstallationView,
+  CeilingFanInstallation as CeilingFanInstallationView,
+  SwitchboardUpgrade as SwitchboardUpgradeView,
+  EmergencyElectrician as EmergencyElectricianView,
+  DataNetworkCabling as DataNetworkCablingView,
+  ExhaustFanInstallation as ExhaustFanInstallationView,
+  CommercialElectricalFitouts as CommercialElectricalFitoutsView,
+  MammothFans as MammothFansView,
+  TVWallMounting as TVWallMountingView,
+  TVAntennasOutlets as TVAntennasOutletsView,
+  CommercialEVChargingInstallation as CommercialEVChargingInstallationView,
+  PreventativeElectricalMaintenance as PreventativeElectricalMaintenanceView,
+  CommercialDataNetworkCabling as CommercialDataNetworkCablingView,
+  CommercialSwitchboardPannels as CommercialSwitchboardPannelsView,
+  SurgeProtection as SurgeProtectionView,
+  FireAlarmSystems as FireAlarmSystemsView,
+  ThreePhasePowerInstallation as ThreePhasePowerInstallationView,
 } from './views';
 
 // Documentation pages
@@ -83,7 +99,7 @@ import {
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/" render={() => <IndexView />} />
+      <Route exact path="/" render={() => <FaultFindingView />} />
       <Route exact path="/home" render={() => <HomeView />} />
       <Route
         exact
@@ -118,82 +134,82 @@ const Routes = () => {
       <Route
         exact
         path="/ceiling-fan-installation"
-        render={() => <SmokeAlarmsInstallationView />}
+        render={() => <CeilingFanInstallationView />}
       />
       <Route
         exact
         path="/switchboard-upgrade"
-        render={() => <WiringAndRewiringView />}
+        render={() => <SwitchboardUpgradeView />}
       />
-      <Route
+      {/* <Route
         exact
         path="/emergency-electrician"
-        render={() => <WiringAndRewiringView />}
-      />
+        render={() => <EmergencyElectricianView />}
+      /> */}
       <Route
         exact
         path="/data-network-cabling"
-        render={() => <WiringAndRewiringView />}
+        render={() => <DataNetworkCablingView />}
       />
       <Route
         exact
         path="/exhaust-fan-installation"
-        render={() => <WiringAndRewiringView />}
+        render={() => <ExhaustFanInstallationView />}
       />
       <Route
         exact
         path="/commercial-electrical-fitouts"
-        render={() => <WiringAndRewiringView />}
+        render={() => <CommercialElectricalFitoutsView />}
       />
       <Route
         exact
         path="/mammoth-fans-auckland"
-        render={() => <WiringAndRewiringView />}
+        render={() => <MammothFansView />}
       />
       <Route
         exact
         path="/tv-wall-mounting"
-        render={() => <WiringAndRewiringView />}
+        render={() => <TVWallMountingView />}
       />
       <Route
         exact
         path="/tv-antennas-outlets"
-        render={() => <WiringAndRewiringView />}
+        render={() => <TVAntennasOutletsView />}
       />
       <Route
         exact
         path="/commercial-ev-charging-installtion"
-        render={() => <WiringAndRewiringView />}
+        render={() => <CommercialEVChargingInstallationView />}
       />
       <Route
         exact
         path="/preventative-electrical-maintenance"
-        render={() => <WiringAndRewiringView />}
+        render={() => <PreventativeElectricalMaintenanceView />}
       />
       <Route
         exact
         path="/commercial-data-network-cabling"
-        render={() => <WiringAndRewiringView />}
+        render={() => <CommercialDataNetworkCablingView />}
       />
       <Route
         exact
         path="/commercial-switchboard-panels"
-        render={() => <WiringAndRewiringView />}
+        render={() => <CommercialSwitchboardPannelsView />}
       />
       <Route
         exact
         path="/surge-protection"
-        render={() => <WiringAndRewiringView />}
+        render={() => <SurgeProtectionView />}
       />
       <Route
         exact
         path="/fire-alarm-systems"
-        render={() => <WiringAndRewiringView />}
+        render={() => <FireAlarmSystemsView />}
       />
       <Route
         exact
         path="/three-phase-power-installation"
-        render={() => <WiringAndRewiringView />}
+        render={() => <ThreePhasePowerInstallationView />}
       />
       <Route
         exact

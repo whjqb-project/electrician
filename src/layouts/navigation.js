@@ -106,10 +106,10 @@ const pages = {
       title: 'Switchboard Upgrade',
       href: '/switchboard-upgrade',
     },
-    {
-      title: '24/7 Emergency Electrician',
-      href: '/emergency-electrician',
-    },
+    // {
+    //   title: '24/7 Emergency Electrician',
+    //   href: '/emergency-electrician',
+    // },
     {
       title: 'Data & Network Cabling',
       href: '/data-network-cabling',

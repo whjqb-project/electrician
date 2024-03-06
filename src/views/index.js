@@ -50,4 +50,27 @@ export { default as AccountNotifications } from './Account/Notifications';
 export { default as AccountSecurity } from './Account/Security';
 export { default as NotFound } from './NotFound';
 export { default as NotFoundCover } from './NotFoundCover';
-export { FaultFinding, PowerpointInstallation, EVChargerInstallation, WiringAndRewiring, SwitchRCDInstallation, SmokeAlarmsInstallation } from './Electrical';
+export {
+  FaultFinding,
+  PowerpointInstallation,
+  EVChargerInstallation,
+  WiringAndRewiring,
+  SwitchRCDInstallation,
+  SmokeAlarmsInstallation,
+  CeilingFanInstallation,
+  SwitchboardUpgrade,
+  EmergencyElectrician,
+  DataNetworkCabling,
+  ExhaustFanInstallation,
+  CommercialElectricalFitouts,
+  MammothFans,
+  TVWallMounting,
+  TVAntennasOutlets,
+  CommercialEVChargingInstallation,
+  PreventativeElectricalMaintenance,
+  CommercialDataNetworkCabling,
+  CommercialSwitchboardPannels,
+  SurgeProtection,
+  FireAlarmSystems,
+  ThreePhasePowerInstallation,
+} from './Electrical';
