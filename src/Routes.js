@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 import {
-  IndexView,
+  // IndexView,
   Home as HomeView,
   Customers as CustomersView,
   HireUs as HireUsView,
