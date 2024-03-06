@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "cross-env GENERATE_SOURCEMAP=false react-scripts build",
+    "build": "cross-env GENERATE_SOURCEMAP=false react-scripts --openssl-legacy-provider build",
     "prettier:fix": "prettier './src/**/*.js' --write",
     "eslint:fix": "eslint ./src --fix",
     "codeStyle:fix": "npm run prettier:fix && npm run eslint:fix",
