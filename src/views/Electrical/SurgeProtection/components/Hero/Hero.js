@@ -26,7 +26,7 @@ const Hero = () => {
             fontWeight: 700,
           }}
         >
-          Smoke Alarms{' '}
+          Surge Power {' '}
           <Typography
             color={'primary'}
             component={'span'}
@@ -37,13 +37,13 @@ const Hero = () => {
               WebkitTextFillColor: 'transparent',
             }}
           >
-            Installation
+            Protection in Auckland
           </Typography>
         </Typography>
       </Box>
       <Box marginBottom={3}>
         <Typography variant="h6" component="p" color="text.secondary">
-          Your go-to local electrician for smoke alarms installation in Auckland!
+          Safeguard Your Home: Top Auckland Surge Protection Services!
         </Typography>
       </Box>
       <Box

@@ -63,11 +63,9 @@ export {
   ExhaustFanInstallation,
   CommercialElectricalFitouts,
   TVWallMounting,
-  TVAntennasOutlets,
   PreventativeElectricalMaintenance,
   CommercialDataNetworkCabling,
   CommercialSwitchboardPannels,
   SurgeProtection,
-  FireAlarmSystems,
   ThreePhasePowerInstallation,
 } from './Electrical';

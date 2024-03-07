@@ -16,14 +16,14 @@ const Main = () => {
   return (
     <Box>
       <Box
-        display={'flex'}
+        // display={'flex'}
         justifyContent={'space-between'}
         alignItems={{ xs: 'flex-start', sm: 'center' }}
         flexDirection={{ xs: 'column', sm: 'row' }}
       >
-        <Box display={'flex'}>
+        <Box display={'flex'} justifyContent={'center'} align='cetner'>
           <Typography fontWeight={700} variant={'h4'} gutterBottom align='center'>
-            Mandarin Brothers Electrical is your trusted smoke alarm installation professionals!
+            Residential And Commercial TV Wall Mounting
           </Typography>
         </Box>
       </Box>
@@ -32,26 +32,27 @@ const Main = () => {
         <Grid item xs={12} md={8}>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              Did you know that smoke alarms and smoke detectors are mandatory for every residential property in Auckland?
+              Mounting TV to wall can be very difficult for someone who is not a licensed professional, that is why it is vital to contact a team like Mandarin Brothers Electrical to complete TV wall mounting because you may do more harm than good to your walls.
             </Typography>
           </Box>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              Using a reliable smoke alarm installer is vital to ensuring the safety of your home or business.
-              Mandarin Brothers Electrical Services can provide smoke detector and smoke alarm installation to keep your staff, colleagues and tenants safe from the risk of a fire within your building.
+              Mandarin Brothers Electrical provides a TV wall mounting service for residential and commercial spaces.
+              Our process involves wall mounting the TV onto a sturdy frame and anchoring this onto the wall using wall studs.
+
             </Typography>
           </Box>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              There are two types of commonly used smoke alarm installations, being photoelectric and ionisation alarms.
-              The main difference between these smoke alarm detectors is that Photoelectric smoke alarms can sense smoke from a smouldering fire,
-              enabling early detection and allows time to control the fire or escape if necessary.
-              However, these smoke alarms are poorly equipped to sense a well-established, flaming fire.
+              We ensure to install the mounting frame in the right position so that it is completely levelled.
+              There is a range of wires and cables required for a TV installation, including; HDMI cables, audio cables, power cords and set-top box TV wiring.
+
             </Typography>
           </Box>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              Ionisation smoke alarm installations by contrast can identify the presence of a flaming fire effectively but they are less able to provide early warning of a smouldering fire or potential breathing or visibility difficulties caused by heavy smoke.
+              Our expert electricians will ensure that they keep all of these cables neatly hidden away when TV wall mounting.
+              Wall mounting TV hiding wires is a simple process for our team, so the end result will look perfect in your space.
             </Typography>
           </Box>
         </Grid>
@@ -60,7 +61,7 @@ const Main = () => {
             component={LazyLoadImage}
             height={1}
             width={1}
-            src={'//cdn.shopify.com/s/files/1/2235/4833/files/How_to_Install_a_Smoke_Alarm_Without_Drilling_2.png?v=1536571266'}
+            src={'https://lumiproduct.oss-cn-hongkong.aliyuncs.com/2022/08/12/62f63415327ffa0002ab7b48.jpg?x-oss-process=image/resize,m_lfit,h_500,w_500'}
             alt="..."
             effect="blur"
             boxShadow={3}

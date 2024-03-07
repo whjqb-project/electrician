@@ -26,7 +26,7 @@ const Hero = () => {
             fontWeight: 700,
           }}
         >
-          Smoke Alarms{' '}
+          TV Wall{' '}
           <Typography
             color={'primary'}
             component={'span'}
@@ -37,13 +37,13 @@ const Hero = () => {
               WebkitTextFillColor: 'transparent',
             }}
           >
-            Installation
+            Mounting
           </Typography>
         </Typography>
       </Box>
       <Box marginBottom={3}>
         <Typography variant="h6" component="p" color="text.secondary">
-          Your go-to local electrician for smoke alarms installation in Auckland!
+          Your go-to local electrician for TV Wall Mounting installation in Auckland!
         </Typography>
       </Box>
       <Box
@@ -114,7 +114,7 @@ const Hero = () => {
             // key={item}
             component={LazyLoadImage}
             effect="blur"
-            src={'https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/how-to-install-a-smoke-detector-step-10.jpg'}
+            src={'https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/how-to-mount-a-flat-screen-TV-on-a-wall-step-2.jpg'}
             height={{ xs: 'auto', md: 1 }}
             maxHeight={{ xs: 300, md: 1 }}
             width={1}

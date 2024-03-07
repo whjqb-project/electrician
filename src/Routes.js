@@ -66,12 +66,10 @@ import {
   ExhaustFanInstallation as ExhaustFanInstallationView,
   CommercialElectricalFitouts as CommercialElectricalFitoutsView,
   TVWallMounting as TVWallMountingView,
-  TVAntennasOutlets as TVAntennasOutletsView,
   PreventativeElectricalMaintenance as PreventativeElectricalMaintenanceView,
   CommercialDataNetworkCabling as CommercialDataNetworkCablingView,
   CommercialSwitchboardPannels as CommercialSwitchboardPannelsView,
   SurgeProtection as SurgeProtectionView,
-  FireAlarmSystems as FireAlarmSystemsView,
   ThreePhasePowerInstallation as ThreePhasePowerInstallationView,
 } from './views';
 
@@ -160,11 +158,6 @@ const Routes = () => {
       />
       <Route
         exact
-        path="/tv-antennas-outlets"
-        render={() => <TVAntennasOutletsView />}
-      />
-      <Route
-        exact
         path="/preventative-electrical-maintenance"
         render={() => <PreventativeElectricalMaintenanceView />}
       />
@@ -182,11 +175,6 @@ const Routes = () => {
         exact
         path="/surge-protection"
         render={() => <SurgeProtectionView />}
-      />
-      <Route
-        exact
-        path="/fire-alarm-systems"
-        render={() => <FireAlarmSystemsView />}
       />
       <Route
         exact

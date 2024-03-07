@@ -127,10 +127,6 @@ const pages = {
       href: '/tv-wall-mounting',
     },
     {
-      title: 'TV Antennas and Outlets',
-      href: '/tv-antennas-outlets',
-    },
-    {
       title: 'Preventative Electrical Maintenance',
       href: '/preventative-electrical-maintenance',
     },
@@ -149,10 +145,6 @@ const pages = {
     {
       title: 'Surge Protection',
       href: '/surge-protection',
-    },
-    {
-      title: 'Fire Alarm Systems',
-      href: '/fire-alarm-systems',
     },
     {
       title: 'Three Phase Power Installation',
