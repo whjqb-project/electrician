@@ -17,14 +17,14 @@ const Main = () => {
   return (
     <Box>
       <Box
-        display={'flex'}
+        // display={'flex'}
         justifyContent={'space-between'}
         alignItems={{ xs: 'flex-start', sm: 'center' }}
         flexDirection={{ xs: 'column', sm: 'row' }}
       >
-        <Box display={'flex'}>
+        <Box alignItems="center" justifyContent="center" display="flex">
           <Typography fontWeight={700} variant={'h4'} gutterBottom align='center'>
-            Mandarin Brothers Electrical is your trusted electrical fault finding professionals!
+            What’s involved in shop and office lighting fitouts?
           </Typography>
         </Box>
       </Box>
@@ -33,29 +33,30 @@ const Main = () => {
         <Grid item xs={12} md={8}>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              Our electrical fault finding experts are able to locate the problem, diagnose issues and repair electrical faults promptly.
-
-              Have a short circuit or damaged plug sockets? We are your go-to electrical fault finding electricians.
-
-              Our electrical fault finding electricians can efficiently assist with many electrical concerns, including:
+              When we provide a shop and office lighting fitout Perth, we start with a site establishment, taking the time to learn your site layout,
+              to ensure the highest quality of safety and electrical work.
             </Typography>
           </Box>
           <Box marginBottom={3}>
-            <Typography variant={'h5'} fontWeight={700} gutterBottom>
-              Short circuit electrical fault finding:
-            </Typography>
             <Typography component={'p'}>
-              Short circuits occur when a live cable becomes exposed and makes contact with the green and yellow cables, which is called the earthing system.
-              The deterioration of the cable’s insulation or water seeping into light fittings and outdoor powerpoints are all reasons for short-circuiting.
+              Mandarin Brothers Electrical Services has developed a turnkey solution for shop and office lighting fitouts.
             </Typography>
           </Box>
-          <Box>
-            <Typography variant={'h5'} fontWeight={700} gutterBottom>
-              Open circuit electrical fault finding:
-            </Typography>
+          <Box marginBottom={3}>
             <Typography component={'p'}>
-              The circuit experiences a tear caused by a broken wire, burning or rusting.
-              The flow of electricity is then interrupted which causes an open circuit fault.
+              This system, alongside trained and local Auckland electricians to implement it, ensures the delivery of productive,
+              professional and quality-driven shop and office fitout projects in a timely and cost-efficient manner.
+            </Typography>
+          </Box>
+          <Box marginBottom={3}>
+            <Typography component={'p'}>
+              Our team of shop and office lighting fitout experts implement the latest technology to enable us to deliver projects promptly and to streamline the process for a competitive edge.
+            </Typography>
+          </Box>
+          <Box marginBottom={3}>
+            <Typography component={'p'}>
+              Our team can provide expert advice from particular shop light installations and office lighting installations to shop lighting automation and office light automation to suit all your requirements.
+              Above all, we ensure your site is cleaned daily and left in a tidy manner.
             </Typography>
           </Box>
         </Grid>
@@ -64,7 +65,7 @@ const Main = () => {
             component={LazyLoadImage}
             height={1}
             width={1}
-            src={images.electricalFaultFinding.main}
+            src={images.commercialElectricalFitouts.main}
             alt="..."
             effect="blur"
             boxShadow={3}

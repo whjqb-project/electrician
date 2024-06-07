@@ -6,6 +6,7 @@ import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
+import images from '../../../../image';
 
 const Main = () => {
   const theme = useTheme();
@@ -88,7 +89,7 @@ const Main = () => {
             component={LazyLoadImage}
             height={1}
             width={1}
-            src={'https://www.finnleyelectrical.com.au/wp-content/uploads/2022/05/Data-cabling-for-home.jpg'}
+            src={images.homeDataNetwork.main}
             alt="..."
             effect="blur"
             boxShadow={3}

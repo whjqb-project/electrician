@@ -6,6 +6,7 @@ import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
+import images from '../../../../image';
 
 const Main = () => {
   const theme = useTheme();
@@ -49,7 +50,7 @@ const Main = () => {
             component={LazyLoadImage}
             height={1}
             width={1}
-            src={'https://static.homeguide.com/assets/images/content/homeguide-new-construction-wiring.jpg'}
+            src={images.electricalWiring.main}
             alt="..."
             effect="blur"
             boxShadow={3}

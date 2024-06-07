@@ -22,9 +22,9 @@ const Main = () => {
         alignItems={{ xs: 'flex-start', sm: 'center' }}
         flexDirection={{ xs: 'column', sm: 'row' }}
       >
-        <Box display={'flex'} justifyContent={'center'} align='cetner'>
-          <Typography fontWeight={700} variant={'h4'} gutterBottom align='center'>
-            Residential And Commercial TV Wall Mounting
+        <Box marginBottom={4} alignItems="center" justifyContent="center" display="flex" >
+          <Typography fontWeight={700} variant={'h4'}>
+            Outdoor Security Lighting Specialist
           </Typography>
         </Box>
       </Box>
@@ -33,27 +33,31 @@ const Main = () => {
         <Grid item xs={12} md={8}>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              Mounting TV to wall can be very difficult for someone who is not a licensed professional, that is why it is vital to contact a team like Mandarin Brothers Electrical to complete TV wall mounting because you may do more harm than good to your walls.
+              Outdoor security lighting Perth can protect your home as well as illuminate it’s best features.
+              Security lighting installation is the most effective option to ward off criminals as properties that are well-lit have reduced crime rates because it increases the risk of intruders being spotted by neighbours.
             </Typography>
           </Box>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              Mandarin Brothers Electrical provides a TV wall mounting service for residential and commercial spaces.
-              Our process involves wall mounting the TV onto a sturdy frame and anchoring this onto the wall using wall studs.
-
+              Mandarin Brothers Electrical Services are your go-to security lighting installers!
+              Our friendly electricians can install automatic security lighting to provide you with safety and awareness of any unusual activity occurring on your property.
             </Typography>
           </Box>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              We ensure to install the mounting frame in the right position so that it is completely levelled.
-              There is a range of wires and cables required for a TV installation, including; HDMI cables, audio cables, power cords and set-top box TV wiring.
-
+              Automatic security lighting around your home can brighten shadowed areas which deters intruders from your property and provides extra security for you and your family.
             </Typography>
           </Box>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              Our expert electricians will ensure that they keep all of these cables neatly hidden away when TV wall mounting.
-              Wall mounting TV hiding wires is a simple process for our team, so the end result will look perfect in your space.
+              Our expert security lighting installers can assist you in choosing the most effective areas to install your security lighting to enhance your home and families protection.
+              Without the correct placement, this limits visibility and causes glare, and as a result, reduces your security.
+            </Typography>
+          </Box>
+          <Box marginBottom={3}>
+            <Typography component={'p'}>
+              Outdoor sensor light installation can provide peace of mind as the lighting fixtures can brighten your home throughout the night and the motion sensor detection is particularly useful in alerting your home if there is an intruder nearby.
+              Speak to our expert Perth electricians to find the best security sensor lighting to install.
             </Typography>
           </Box>
         </Grid>
@@ -62,7 +66,7 @@ const Main = () => {
             component={LazyLoadImage}
             height={1}
             width={1}
-            src={images.tvMounting.main}
+            src={images.outdoorLighting.main}
             alt="..."
             effect="blur"
             boxShadow={3}

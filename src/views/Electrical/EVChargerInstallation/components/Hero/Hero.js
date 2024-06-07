@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
-
+import images from '../../../../image';
 import Container from 'components/Container';
 
 const Hero = () => {
@@ -114,7 +114,7 @@ const Hero = () => {
             // key={item}
             component={LazyLoadImage}
             effect="blur"
-            src={'https://www.brillare.net.au/uploads/services_image/brillare-electrical-electric-vehicle-charge.jpg'}
+            src={images.evCharger.hero}
             height={{ xs: 'auto', md: 1 }}
             maxHeight={{ xs: 300, md: 1 }}
             width={1}

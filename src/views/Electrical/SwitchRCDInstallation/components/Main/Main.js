@@ -10,6 +10,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Avatar from '@mui/material/Avatar';
 import ListItemText from '@mui/material/ListItemText';
+import images from '../../../../image';
 
 const Main = () => {
   const theme = useTheme();
@@ -97,7 +98,7 @@ const Main = () => {
             component={LazyLoadImage}
             height={1}
             width={1}
-            src={'https://cdn.expertelectrical.co.uk/wp-content/uploads/2011/12/fusebox-rcd.jpg'}
+            src={images.switch.main}
             alt="..."
             effect="blur"
             boxShadow={3}

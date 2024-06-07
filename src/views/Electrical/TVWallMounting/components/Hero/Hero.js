@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
-
+import images from '../../../../image';
 import Container from 'components/Container';
 
 const Hero = () => {
@@ -114,7 +114,7 @@ const Hero = () => {
             // key={item}
             component={LazyLoadImage}
             effect="blur"
-            src={'https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/how-to-mount-a-flat-screen-TV-on-a-wall-step-2.jpg'}
+            src={images.tvMounting.hero}
             height={{ xs: 'auto', md: 1 }}
             maxHeight={{ xs: 300, md: 1 }}
             width={1}

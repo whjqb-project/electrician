@@ -10,6 +10,7 @@ import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemText from '@mui/material/ListItemText';
 import Avatar from '@mui/material/Avatar';
 import ListItem from '@mui/material/ListItem';
+import images from '../../../../image';
 
 const Main = () => {
   const theme = useTheme();
@@ -116,7 +117,7 @@ const Main = () => {
             component={LazyLoadImage}
             height={1}
             width={1}
-            src={'https://megaelectricalcontractor.com.au/wp-content/uploads/2022/07/Switchboard.jpg'}
+            src={images.switchboard.main}
             alt="..."
             effect="blur"
             boxShadow={3}

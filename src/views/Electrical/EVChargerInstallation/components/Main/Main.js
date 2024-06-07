@@ -6,6 +6,7 @@ import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
+import images from '../../../../image';
 
 const Main = () => {
   const theme = useTheme();
@@ -61,7 +62,7 @@ const Main = () => {
             component={LazyLoadImage}
             height={1}
             width={1}
-            src={'https://www.brillare.net.au/cms-admin/uploads/electric-vehicle-charging-perth.jpg'}
+            src={images.evCharger.main}
             alt="..."
             effect="blur"
             boxShadow={3}

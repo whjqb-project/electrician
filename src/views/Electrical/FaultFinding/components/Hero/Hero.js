@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
+import images from '../../../../image';
 
 import Container from 'components/Container';
 
@@ -60,17 +61,6 @@ const Hero = () => {
         >
           Schedule an Electrician
         </Button>
-        {/* <Box
-          component={Button}
-          variant="outlined"
-          color="primary"
-          size="large"
-          marginTop={{ xs: 2, sm: 0 }}
-          marginLeft={{ sm: 2 }}
-          fullWidth={isMd ? false : true}
-        >
-          Browse spaces 
-          </Box>*/}
       </Box>
     </Box>
   );
@@ -126,7 +116,7 @@ const Hero = () => {
             // key={item}
             component={LazyLoadImage}
             effect="blur"
-            src={'https://www.sparkieselectrical.com/wp-content/uploads/2018/02/04.jpg'}
+            src={images.electricalFaultFinding.hero}
             height={{ xs: 'auto', md: 1 }}
             maxHeight={{ xs: 300, md: 1 }}
             width={1}

@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
-
+import images from '../../../../image';
 import Container from 'components/Container';
 
 const Hero = () => {
@@ -114,7 +114,7 @@ const Hero = () => {
             // key={item}
             component={LazyLoadImage}
             effect="blur"
-            src={'https://www.familyhandyman.com/wp-content/uploads/2023/10/GettyImages-486451672.jpg?fit=700,467'}
+            src={images.exhaustFan.hero}
             height={{ xs: 'auto', md: 1 }}
             maxHeight={{ xs: 300, md: 1 }}
             width={1}

@@ -6,6 +6,7 @@ import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
+import images from '../../../../image';
 
 const Main = () => {
   const theme = useTheme();
@@ -60,7 +61,7 @@ const Main = () => {
             component={LazyLoadImage}
             height={1}
             width={1}
-            src={'//cdn.shopify.com/s/files/1/2235/4833/files/How_to_Install_a_Smoke_Alarm_Without_Drilling_2.png?v=1536571266'}
+            src={images.smokeAlarm.main}
             alt="..."
             effect="blur"
             boxShadow={3}

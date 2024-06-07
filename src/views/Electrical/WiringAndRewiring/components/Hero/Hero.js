@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
-
+import images from '../../../../image';
 import Container from 'components/Container';
 
 const Hero = () => {
@@ -125,7 +125,7 @@ const Hero = () => {
             // key={item}
             component={LazyLoadImage}
             effect="blur"
-            src={'https://www.thespruce.com/thmb/q9OWiEcb5PvKcTKusUMUBwXxsmY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/electrical-wiring-1152909_03_color_coding-49e8a933548d44c488495999ed836093.jpg'}
+            src={images.electricalWiring.hero}
             height={{ xs: 'auto', md: 1 }}
             maxHeight={{ xs: 300, md: 1 }}
             width={1}

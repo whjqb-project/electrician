@@ -61,11 +61,13 @@ export {
   SwitchboardUpgrade,
   DataNetworkCabling,
   ExhaustFanInstallation,
-  CommercialElectricalFitouts,
   TVWallMounting,
-  PreventativeElectricalMaintenance,
+} from './Electrical';
+export {
+  CommercialElectricalFitouts,
   CommercialDataNetworkCabling,
   CommercialSwitchboardPannels,
-  SurgeProtection,
-  ThreePhasePowerInstallation,
-} from './Electrical';
+} from './Commercial';
+export {
+  OutdoorLighting,
+} from './Lighting';

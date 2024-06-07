@@ -126,35 +126,35 @@ const pages = {
       title: 'TV Wall Mounting',
       href: '/tv-wall-mounting',
     },
-    {
-      title: 'Preventative Electrical Maintenance',
-      href: '/preventative-electrical-maintenance',
-    },
-    {
-      title: 'Quality Commercial Electrical Fitouts',
-      href: '/commercial-electrical-fitouts',
-    },
-    {
-      title: 'Commercial Data & Network Cabling',
-      href: '/commercial-data-network-cabling',
-    },
-    {
-      title: 'Commercial Switchboard & Panels',
-      href: '/commercial-switchboard-panels',
-    },
-    {
-      title: 'Surge Protection',
-      href: '/surge-protection',
-    },
-    {
-      title: 'Three Phase Power Installation',
-      href: '/three-phase-power-installation',
-    },
+    // {
+    //   title: 'Preventative Electrical Maintenance',
+    //   href: '/preventative-electrical-maintenance',
+    // },
+    // {
+    //   title: 'Quality Commercial Electrical Fitouts',
+    //   href: '/commercial-electrical-fitouts',
+    // },
+    // {
+    //   title: 'Commercial Data & Network Cabling',
+    //   href: '/commercial-data-network-cabling',
+    // },
+    // {
+    //   title: 'Commercial Switchboard & Panels',
+    //   href: '/commercial-switchboard-panels',
+    // },
+    // {
+    //   title: 'Surge Protection',
+    //   href: '/surge-protection',
+    // },
+    // {
+    //   title: 'Three Phase Power Installation',
+    //   href: '/three-phase-power-installation',
+    // },
   ],
   lighting: [
     {
       title: 'Outdoor Security Lighting Installation',
-      href: '/not-found-cover',
+      href: '/outdoor-lighting',
     },
     {
       title: 'Garden Lighting Installation',
@@ -254,7 +254,7 @@ const pages = {
     },
     {
       title: 'Quality Commercial Electrical Fitouts',
-      href: '/not-found-cover',
+      href: '/commercial-electrical-fitouts',
     },
     {
       title: 'Business Intercom Auckland',

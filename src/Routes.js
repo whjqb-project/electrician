@@ -66,11 +66,9 @@ import {
   ExhaustFanInstallation as ExhaustFanInstallationView,
   CommercialElectricalFitouts as CommercialElectricalFitoutsView,
   TVWallMounting as TVWallMountingView,
-  PreventativeElectricalMaintenance as PreventativeElectricalMaintenanceView,
   CommercialDataNetworkCabling as CommercialDataNetworkCablingView,
   CommercialSwitchboardPannels as CommercialSwitchboardPannelsView,
-  SurgeProtection as SurgeProtectionView,
-  ThreePhasePowerInstallation as ThreePhasePowerInstallationView,
+  OutdoorLighting as OutdoorLightingView,
 } from './views';
 
 // Documentation pages
@@ -96,6 +94,7 @@ const Routes = () => {
     <Switch>
       <Route exact path="/" render={() => <FaultFindingView />} />
       <Route exact path="/home" render={() => <HomeView />} />
+      {/* electrical */}
       <Route
         exact
         path="/fault-finding"
@@ -148,19 +147,22 @@ const Routes = () => {
       />
       <Route
         exact
-        path="/commercial-electrical-fitouts"
-        render={() => <CommercialElectricalFitoutsView />}
-      />
-      <Route
-        exact
         path="/tv-wall-mounting"
         render={() => <TVWallMountingView />}
       />
+      {/* lighting */}
       <Route
         exact
-        path="/preventative-electrical-maintenance"
-        render={() => <PreventativeElectricalMaintenanceView />}
+        path="/outdoor-lighting"
+        render={() => <OutdoorLightingView />}
       />
+      {/* commercial */}
+      <Route
+        exact
+        path="/commercial-electrical-fitouts"
+        render={() => <CommercialElectricalFitoutsView />}
+      />
+      
       <Route
         exact
         path="/commercial-data-network-cabling"
@@ -170,16 +172,6 @@ const Routes = () => {
         exact
         path="/commercial-switchboard-panels"
         render={() => <CommercialSwitchboardPannelsView />}
-      />
-      <Route
-        exact
-        path="/surge-protection"
-        render={() => <SurgeProtectionView />}
-      />
-      <Route
-        exact
-        path="/three-phase-power-installation"
-        render={() => <ThreePhasePowerInstallationView />}
       />
       <Route
         exact

@@ -26,7 +26,7 @@ const Hero = () => {
             fontWeight: 700,
           }}
         >
-          Home Data & Network{' '}
+          Quality Commercial{' '}
           <Typography
             color={'primary'}
             component={'span'}
@@ -37,13 +37,13 @@ const Hero = () => {
               WebkitTextFillColor: 'transparent',
             }}
           >
-            Cabling
+            Electrical Fitouts
           </Typography>
         </Typography>
       </Box>
       <Box marginBottom={3}>
         <Typography variant="h6" component="p" color="text.secondary">
-        Achieve connectivity with our Data & Network Cabling Installation in Auckland!
+        Your go-to local electrician for Shop & Office Fitout in Auckland!
         </Typography>
       </Box>
       <Box
@@ -114,7 +114,7 @@ const Hero = () => {
             // key={item}
             component={LazyLoadImage}
             effect="blur"
-            src={images.homeDataNetwork.hero}
+            src={images.commercialElectricalFitouts.hero}
             height={{ xs: 'auto', md: 1 }}
             maxHeight={{ xs: 300, md: 1 }}
             width={1}
