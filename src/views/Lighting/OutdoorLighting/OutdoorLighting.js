@@ -9,7 +9,6 @@ import {
   Hero,
   Main as MainSection,
   WhoWeAre,
-  PricingCompareTable,
 } from './components';
 
 const OutdoorLighting = () => {
