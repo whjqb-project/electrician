@@ -17,7 +17,7 @@ const WhoWeAre = () => {
     <Box>
       <Box alignItems="center" justifyContent="center" display="flex" marginBottom={3}>
         <Typography variant={'h4'} gutterBottom sx={{ fontWeight: 700 }}>
-          Smoke Alarm Installation Service in Auckland
+          Knowledgeable & Strictly Compliant to New Zealand Standards
         </Typography>
       </Box>
       <Divider />

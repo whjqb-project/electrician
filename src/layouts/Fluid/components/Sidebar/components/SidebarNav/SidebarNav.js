@@ -11,16 +11,14 @@ const SidebarNav = ({ pages }) => {
   const { mode } = theme.palette;
 
   const {
-    landings: landingPages,
-    secondary: secondaryPages,
-    company: companyPages,
-    account: accountPages,
-    portfolio: portfolioPages,
-    blog: blogPages,
-    electrical: electicalPages,
-    lighting: lightingPages,
-    cctv: cctvPages,
+    // landings: landingPages,
+    // secondary: secondaryPages,
+    // company: companyPages,
+    // account: accountPages,
+    // portfolio: portfolioPages,
+    // blog: blogPages,
     commercial: commercialPages,
+    residential: residentialPages,
   } = pages;
 
   return (
@@ -47,13 +45,7 @@ const SidebarNav = ({ pages }) => {
       </Box>
       <Box paddingX={2} paddingY={2}>
         <Box>
-          <NavItem title={'Electrical'} items={electicalPages} />
-        </Box>
-        <Box>
-          <NavItem title={'Lighting'} items={lightingPages} />
-        </Box>
-        <Box>
-          <NavItem title={'CCTV'} items={cctvPages} />
+          <NavItem title={'Residential'} items={residentialPages} />
         </Box>
         <Box>
           <NavItem title={'Commercial'} items={commercialPages} />

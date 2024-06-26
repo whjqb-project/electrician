@@ -20,10 +20,8 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
     // account: accountPages,
     // portfolio: portfolioPages,
     // blog: blogPages,
-    lighting: lightingPages,
-    cctv: cctvPages,
-    electrical: electricalPages,
     commercial: commercialPages,
+    residential: residentialPages,
   } = pages;
 
   return (
@@ -69,25 +67,9 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
         </Box> */}
         <Box>
           <NavItem
-            title={'Electrical'}
-            id={'electrical-pages'}
-            items={electricalPages}
-            colorInvert={colorInvert}
-          />
-        </Box>
-        <Box marginLeft={4}>
-          <NavItem
-            title={'Lighting'}
-            id={'lighting-pages'}
-            items={lightingPages}
-            colorInvert={colorInvert}
-          />
-        </Box>
-        <Box marginLeft={4}>
-          <NavItem
-            title={'CCTV Security'}
-            id={'cctv-pages'}
-            items={cctvPages}
+            title={'Residential'}
+            id={'residential-pages'}
+            items={residentialPages}
             colorInvert={colorInvert}
           />
         </Box>
@@ -98,6 +80,16 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
             items={commercialPages}
             colorInvert={colorInvert}
           />
+        </Box>
+        <Box marginLeft={4}>
+          <Link
+            underline="none"
+            component="a"
+            href="/not-found-cover"
+            color={colorInvert ? 'common.white' : 'text.primary'}
+          >
+            Past Projects
+          </Link>
         </Box>
         <Box marginLeft={4}>
           <Link

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Link from '@mui/material/Link';
+// import Link from '@mui/material/Link';
 import { alpha, useTheme } from '@mui/material/styles';
 import MenuIcon from '@mui/icons-material/Menu';
 
@@ -12,16 +12,14 @@ const Topbar = ({ onSidebarOpen, pages }) => {
   const theme = useTheme();
   const { mode } = theme.palette;
   const {
-    landings: landingPages,
-    secondary: secondaryPages,
-    company: companyPages,
-    account: accountPages,
-    portfolio: portfolioPages,
-    blog: blogPages,
-    electrical: electicalPages,
-    lighting: lightingPages,
-    cctv: cctvPages,
+    // landings: landingPages,
+    // secondary: secondaryPages,
+    // company: companyPages,
+    // account: accountPages,
+    // portfolio: portfolioPages,
+    // blog: blogPages,
     commercial: commercialPages,
+    residential: residentialPages,
   } = pages;
 
   return (
@@ -52,23 +50,9 @@ const Topbar = ({ onSidebarOpen, pages }) => {
       <Box sx={{ display: { xs: 'none', md: 'flex' } }} alignItems={'center'}>
         <Box>
           <NavItem
-            title={'Electrical'}
-            id={'electrical-pages'}
-            items={electicalPages}
-          />
-        </Box>
-        <Box marginLeft={2.5}>
-          <NavItem
-            title={'Lighting'}
-            id={'lighting-pages'}
-            items={lightingPages}
-          />
-        </Box>
-        <Box marginLeft={2.5}>
-          <NavItem
-            title={'CCTV'}
-            id={'cctv-pages'}
-            items={cctvPages}
+            title={'Residential'}
+            id={'residential-pages'}
+            items={residentialPages}
           />
         </Box>
         <Box marginLeft={2.5}>
