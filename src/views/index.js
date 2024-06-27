@@ -8,6 +8,7 @@ export { default as ContactPageCover } from './ContactPageCover';
 export { default as AboutSideCover } from './AboutSideCover';
 export { default as NotFound } from './NotFound';
 export { default as NotFoundCover } from './NotFoundCover';
+export { default as PortfolioPage} from './PortfolioPage';
 export {
   FaultFinding,
   PowerpointInstallation,
@@ -27,7 +28,7 @@ export {
 } from './Residential';
 export {
   CommercialElectricalFitouts,
-  CommercialDataNetworkCabling,
+  ElectricalLayoutPlanning,
   WarehouseLighting,
   EmergencyLighting,
 } from './Commercial';

@@ -12,6 +12,7 @@ import {
   AboutSideCover as AboutSideCoverView,
   NotFound as NotFoundView,
   NotFoundCover as NotFoundCoverView,
+  PortfolioPage as PortfolioPageView,
 
   //Residential
   FaultFinding as FaultFindingView,
@@ -25,7 +26,6 @@ import {
   DataNetworkCabling as DataNetworkCablingView,
   ExhaustFanInstallation as ExhaustFanInstallationView,
   TVWallMounting as TVWallMountingView,
-  CommercialDataNetworkCabling as CommercialDataNetworkCablingView,
   OutdoorLighting as OutdoorLightingView,
   GardenLighting as GardenLightingView,
   LEDDownlight as LEDDownlightView,
@@ -35,6 +35,7 @@ import {
   EmergencyLighting as EmergencyLightingView,
   CommercialElectricalFitouts as CommercialElectricalFitoutsView,
   WarehouseLighting as WarehouseLightingView,
+  ElectricalLayoutPlanning as ElectricalLayoutPlanningView,
 } from './views';
 
 const Routes = () => {
@@ -131,8 +132,8 @@ const Routes = () => {
       />
       <Route
         exact
-        path="/commercial-data-network-cabling"
-        render={() => <CommercialDataNetworkCablingView />}
+        path="/electrical-layout-planning"
+        render={() => <ElectricalLayoutPlanningView />}
       />
       <Route
         exact
@@ -141,6 +142,7 @@ const Routes = () => {
       />
       <Route exact path="/contact-page" render={() => <ContactPageView />} />
       <Route exact path="/startup" render={() => <StartupView />} />
+      <Route exact path="/portfolio-page" render={() => <PortfolioPageView />} />
       <Route exact path="/about" render={() => <AboutView />} />
       <Route
         exact

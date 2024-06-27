@@ -26,18 +26,22 @@ const WhoWeAre = () => {
         >
           <Box>
             <Typography variant={'h4'} gutterBottom sx={{ fontWeight: 700 }}>
-              Smoke Alarm Installation Service in Auckland
+              Layout Planning In Auckland
             </Typography>
             <br />
 
             <Divider />
             <br />
             <Typography component={'p'}>
-              Depending on the size of your home, it is recommended to have a few smoke alarm installations so it is easier for everyone to be alerted in case of a fire.
+              Mandarin Brothers Electrical Services is experienced in both residential and commercial sectors and therefore are able to offer expert advice on new home electrical layouts when it comes to the compliance of specific installations.
             </Typography>
             <br />
             <Typography component={'p'}>
-              It’s vital to contact a professional electrician to have your smoke alarm system tested regularly to ensure its efficient operation.
+              Mandarin Brothers Electrical Services provides leading new home electrical layouts Perth and electrical layout planning Perth for commercial properties such as retail, educational, health and aged care.
+            </Typography>
+            <br />
+            <Typography component={'p'}>
+              Enquire with our experienced electrical design team today!
             </Typography>
           </Box>
         </Grid>
@@ -51,20 +55,22 @@ const WhoWeAre = () => {
         >
           <Box>
             <Typography variant={'h4'} gutterBottom sx={{ fontWeight: 700 }}>
-              Smoke Alarm Installation Service Provider 
+              Electrical Layout Planning Experts
             </Typography>
             <br />
             <Divider />
+
             <br />
             <Typography component={'p'}>
-              Mandarin Brothers electrical services are your local smoke alarm installers for residential and commercial properties.
-              Our smoke detectors and smoke alarms are recommended by the Department of Fire and Emergency Services,
-              so you can have peace of mind knowing our smoke alarms and smoke alarm installations are of the highest quality.
+              Our team ensures any electrical design can be built according to relevant standards and guidelines, to avoid any costly surprises down the track.
             </Typography>
             <br />
             <Typography component={'p'}>
-              Our team of professional smoke alarm installers offer a comprehensive smoke alarm installation service,
-              encompassing everything from the consultation and property survey through to the installation complying with AS3786:2014.
+              Working closely with our managing director and licensed Local electrician team, our electrical design team remain on hand throughout the construction phase to answer any questions or clarify aspects of the design and electrical layout.
+            </Typography>
+            <br />
+            <Typography component={'p'}>
+              The result is a seamless construction period where the intent behind the design remains the key focus.
             </Typography>
           </Box>
         </Grid>

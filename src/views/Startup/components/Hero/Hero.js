@@ -61,7 +61,7 @@ const Hero = () => {
             title="YouTube video player"
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/0qisGSwZym4?autoplay=1&controls=0&showinfo=0&mute=1&loop=1&playlist=0qisGSwZym4"
+            src="https://www.mtu.edu/globalcampus/5-power-electrical-engineering-trends/images/lightbulb2-banner450.jpg 450w, https://www.mtu.edu/globalcampus/5-power-electrical-engineering-trends/images/lightbulb2-banner800.jpg 800w, https://www.mtu.edu/globalcampus/5-power-electrical-engineering-trends/images/lightbulb2-banner1200.jpg 1200w, "
           />
         </Box>
       </Box>

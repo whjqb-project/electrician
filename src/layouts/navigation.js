@@ -1,7 +1,7 @@
 const pages = {
   landings: [
     {
-      title: 'Overview',
+      title: 'Home',
       href: '/home',
     },
   ],
@@ -77,32 +77,12 @@ const pages = {
   ],
   commercial: [
     {
-      title: 'Business Alarm System Installation',
-      href: '/not-found-cover',
-    },
-    {
-      title: 'Commercial Electrician Auckland',
-      href: '/not-found-cover',
-    },
-    {
       title: 'Quality Commercial Electrical Fitouts',
       href: '/commercial-electrical-fitouts',
     },
     {
-      title: 'Business Intercom Auckland',
-      href: '/not-found-cover',
-    },
-    {
-      title: 'Expert Strata Electrician Services',
-      href: '/not-found-cover',
-    },
-    {
       title: 'Electrical Layout Planning',
-      href: '/not-found-cover',
-    },
-    {
-      title: 'Ultimate Electrical Compliance Ensured',
-      href: '/not-found-cover',
+      href: '/electrical-layout-planning',
     },
     {
       title: 'Emergency & Exit Lighting',

@@ -68,6 +68,10 @@ const images = {
     hero: 'https://www.idesuk.com/wp-content/uploads/2020/10/LED-Warehouse-Lighting.jpg',
     main: '//www.urbancottageindustries.com/cdn/shop/files/Untitled_Artwork_201.jpg?v=1670943609&width=1200',
   },
+  electricalLayoutPlanning: {
+    hero: 'https://mintelectricalservices.com.au/wp-content/uploads/2019/06/We-provide-Electrical-Layout-Design-Service-in-Adelaide-and-surrpunding-suburbs.jpg',
+    main: 'https://nz.rs-cdn.com/images/nwsjb-dl6lb/grid-gallery/75822f1625a6023d9f4d14637a456b18__7c8b/zoom591x591z100000cw591.jpg.webp, https://nz.rs-cdn.com/images/nwsjb-dl6lb/grid-gallery/75822f1625a6023d9f4d14637a456b18__250f/zoom591x591z100000cw591@2x.jpg.webp 2x',
+  },
 };
 
 export default images;

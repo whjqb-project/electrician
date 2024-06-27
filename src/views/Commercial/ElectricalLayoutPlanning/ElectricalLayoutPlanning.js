@@ -9,10 +9,9 @@ import {
   Hero,
   Main as MainSection,
   WhoWeAre,
-  PricingCompareTable,
 } from './components';
 
-const CommercialDataNetworkCabling = () => {
+const ElectricalLayoutPlanning = () => {
   const theme = useTheme();
 
   return (
@@ -25,15 +24,10 @@ const CommercialDataNetworkCabling = () => {
       </Box>
       <Divider />
       <Container>
-        <PricingCompareTable />
+        <MainSection />
       </Container>
-      <Box bgcolor={theme.palette.alternate.main}>
-        <Container>
-          <MainSection />
-        </Container>
-      </Box>
     </Main>
   );
 };
 
-export default CommercialDataNetworkCabling;
+export default ElectricalLayoutPlanning;

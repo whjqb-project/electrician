@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
+import images from '../../../../image';
 
 import Container from 'components/Container';
 
@@ -26,7 +27,7 @@ const Hero = () => {
             fontWeight: 700,
           }}
         >
-          Smoke Alarms{' '}
+          Electrical Layout{' '}
           <Typography
             color={'primary'}
             component={'span'}
@@ -37,13 +38,13 @@ const Hero = () => {
               WebkitTextFillColor: 'transparent',
             }}
           >
-            Installation
+            Planning
           </Typography>
         </Typography>
       </Box>
       <Box marginBottom={3}>
         <Typography variant="h6" component="p" color="text.secondary">
-          Your go-to local electrician for smoke alarms installation in Auckland!
+          Mandarin Brothers Electrical Services, our in-house electrical design team partners with our construction team to deliver smart electrical layout solutions for clients.
         </Typography>
       </Box>
       <Box
@@ -114,7 +115,7 @@ const Hero = () => {
             // key={item}
             component={LazyLoadImage}
             effect="blur"
-            src={'https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/how-to-install-a-smoke-detector-step-10.jpg'}
+            src={images.electricalLayoutPlanning.hero}
             height={{ xs: 'auto', md: 1 }}
             maxHeight={{ xs: 300, md: 1 }}
             width={1}
