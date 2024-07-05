@@ -2,17 +2,9 @@ import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 import {
-  // IndexView,
-  Home as HomeView,
-  ContactPage as ContactPageView,
-  Startup as StartupView,
+  IndexView,
   About as AboutView,
-  ContactPageSidebarMap as ContactPageSidebarMapView,
-  ContactPageCover as ContactPageCoverView,
-  AboutSideCover as AboutSideCoverView,
   NotFound as NotFoundView,
-  NotFoundCover as NotFoundCoverView,
-  PortfolioPage as PortfolioPageView,
 
   //Residential
   FaultFinding as FaultFindingView,
@@ -23,26 +15,25 @@ import {
   SmokeAlarmsInstallation as SmokeAlarmsInstallationView,
   CeilingFanInstallation as CeilingFanInstallationView,
   SwitchboardUpgrade as SwitchboardUpgradeView,
-  DataNetworkCabling as DataNetworkCablingView,
   ExhaustFanInstallation as ExhaustFanInstallationView,
   TVWallMounting as TVWallMountingView,
   OutdoorLighting as OutdoorLightingView,
   GardenLighting as GardenLightingView,
   LEDDownlight as LEDDownlightView,
-  HomeCCTV as HomeCCTVView,
 
   // Commercial
   EmergencyLighting as EmergencyLightingView,
   CommercialElectricalFitouts as CommercialElectricalFitoutsView,
   WarehouseLighting as WarehouseLightingView,
   ElectricalLayoutPlanning as ElectricalLayoutPlanningView,
+  DataNetworkCabling as DataNetworkCablingView,
+  CCTV as CCTVView,
 } from './views';
 
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/" render={() => <FaultFindingView />} />
-      <Route exact path="/home" render={() => <HomeView />} />
+      <Route exact path="/" render={() => <IndexView />} />
       {/* residential */}
       <Route
         exact
@@ -101,11 +92,6 @@ const Routes = () => {
       />
       <Route
         exact
-        path="/data-network-cabling"
-        render={() => <DataNetworkCablingView />}
-      />
-      <Route
-        exact
         path="/exhaust-fan-installation"
         render={() => <ExhaustFanInstallationView />}
       />
@@ -113,11 +99,6 @@ const Routes = () => {
         exact
         path="/tv-wall-mounting"
         render={() => <TVWallMountingView />}
-      />
-      <Route
-        exact
-        path="/home-cctv"
-        render={() => <HomeCCTVView />}
       />
       {/* commercial */}
       <Route
@@ -140,32 +121,25 @@ const Routes = () => {
         path="/warehouse-lighting"
         render={() => <WarehouseLightingView />}
       />
-      <Route exact path="/contact-page" render={() => <ContactPageView />} />
-      <Route exact path="/startup" render={() => <StartupView />} />
-      <Route exact path="/portfolio-page" render={() => <PortfolioPageView />} />
+      <Route
+        exact
+        path="/data-network-cabling"
+        render={() => <DataNetworkCablingView />}
+      />
+      <Route
+        exact
+        path="/cctv"
+        render={() => <CCTVView />}
+      />
+      {/* abount */}
       <Route exact path="/about" render={() => <AboutView />} />
-      <Route
-        exact
-        path="/contact-sidebar-map"
-        render={() => <ContactPageSidebarMapView />}
-      />
-      <Route
-        exact
-        path="/contact-page-cover"
-        render={() => <ContactPageCoverView />}
-      />
-      <Route
-        exact
-        path="/about-side-cover"
-        render={() => <AboutSideCoverView />}
-      />
       <Route exact path="/not-found" render={() => <NotFoundView />} />
-      <Route
+      {/* <Route
         exact
         path="/not-found-cover"
         render={() => <NotFoundCoverView />}
-      />
-      <Redirect to="/not-found-cover" />
+      /> */}
+      <Redirect to="/not-found" />
     </Switch>
   );
 };

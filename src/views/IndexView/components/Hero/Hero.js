@@ -1,82 +1,14 @@
 import React from 'react';
-import Typed from 'react-typed';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { alpha, useTheme } from '@mui/material/styles';
-
+import images from '../../../image';
+import CallUs from 'components/CallUs';
 import Container from 'components/Container';
 
-const images = [
-  {
-    group: [
-      {
-        cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img1.png',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img1--dark.png',
-      },
-      {
-        cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img4.png',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img4--dark.png',
-      },
-    ],
-  },
-  {
-    group: [
-      {
-        cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img13.png',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img13--dark.png',
-      },
-      {
-        cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img10.png',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img10--dark.png',
-      },
-      {
-        cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img7.png',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img7--dark.png',
-      },
-    ],
-  },
-  {
-    group: [
-      {
-        cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img6.png',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img6--dark.png',
-      },
-      {
-        cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img24.png',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img24--dark.png',
-      },
-      {
-        cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img17.png',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img17--dark.png',
-      },
-      {
-        cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img12.png',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img12--dark.png',
-      },
-    ],
-  },
-];
+const homeImages = images.home;
 
 const Hero = () => {
   const theme = useTheme();
@@ -106,9 +38,9 @@ const Hero = () => {
                 fontWeight: 700,
               }}
             >
-              Turn your ideas
+              The best solutions 
               <br />
-              into{' '}
+              for{' '}
               <Typography
                 color={'primary'}
                 component={'span'}
@@ -119,11 +51,12 @@ const Hero = () => {
                   WebkitTextFillColor: 'transparent',
                 }}
               >
-                <Typed
+                electrical needs
+                {/* <Typed
                   strings={['startup.', 'future.', 'success.']}
                   typeSpeed={80}
                   loop={true}
-                />
+                /> */}
               </Typography>
             </Typography>
             <Typography
@@ -132,42 +65,9 @@ const Hero = () => {
               color="text.secondary"
               sx={{ fontWeight: 400 }}
             >
-              theFront will make your product look modern and professional while
-              saving you precious time.
+              Mandarin Brothers Electrical is your premier electrical contractor in Auckland
             </Typography>
-            <Box
-              display="flex"
-              flexDirection={{ xs: 'column', sm: 'row' }}
-              alignItems={{ xs: 'stretched', sm: 'flex-start' }}
-              marginTop={4}
-            >
-              <Button
-                component={'a'}
-                variant="contained"
-                color="primary"
-                size="large"
-                fullWidth={isMd ? false : true}
-                href={'/home'}
-              >
-                View pages
-              </Button>
-              <Box
-                marginTop={{ xs: 2, sm: 0 }}
-                marginLeft={{ sm: 2 }}
-                width={{ xs: '100%', md: 'auto' }}
-              >
-                <Button
-                  component={'a'}
-                  href={'/docs/introduction'}
-                  variant="outlined"
-                  color="primary"
-                  size="large"
-                  fullWidth={isMd ? false : true}
-                >
-                  Documentation
-                </Button>
-              </Box>
-            </Box>
+            <CallUs isMd={isMd}/>
           </Box>
         </Container>
         <Box
@@ -184,7 +84,7 @@ const Hero = () => {
             position={'absolute'}
             sx={{ transform: 'translate3d(20%, -50%, 0)' }}
           >
-            {images.map((item, i) => (
+            {homeImages.map((item, i) => (
               <Box key={i} marginTop={{ sm: -(i * 16) }} marginX={1}>
                 {item.group.map((g, j) => (
                   <Box

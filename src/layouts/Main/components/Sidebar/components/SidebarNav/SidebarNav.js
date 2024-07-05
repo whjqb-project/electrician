@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Box from '@mui/material/Box';
+import Link from '@mui/material/Link';
 import Button from '@mui/material/Button';
 import { useTheme } from '@mui/material/styles';
 import logo from './logo.png';
@@ -46,11 +47,41 @@ const SidebarNav = ({ pages }) => {
         </Box>
       </Box>
       <Box paddingX={2} paddingY={2}>
+        <Box paddingY={1}>
+          <Link
+            underline="none"
+            component="a"
+            href="/"
+            color={'text.primary'}
+          >
+            Home
+          </Link>
+        </Box>
         <Box>
           <NavItem title={'Residential'} items={residentialPages} />
         </Box>
         <Box>
           <NavItem title={'Commercial'} items={commercialPages} />
+        </Box>
+        <Box paddingY={2}>
+          <Link
+            underline="none"
+            component="a"
+            href="/past-projects"
+            color={'text.primary'}
+          >
+            Past Projects
+          </Link>
+        </Box>
+        <Box paddingY={2}>
+          <Link
+            underline="none"
+            component="a"
+            href="/about"
+            color={'text.primary'}
+          >
+            About Us
+          </Link>
         </Box>
         <Box marginTop={1} display={'flex'}>
           {/* <Button
@@ -91,7 +122,7 @@ const SidebarNav = ({ pages }) => {
               // href="https://material-ui.com/store/items/the-front-landing-page/"
               size="large"
             >
-              021 688 156
+              Call us on 021 688 156
             </Button>
           </Box>
         </Box>

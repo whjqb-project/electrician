@@ -3,12 +3,12 @@ import Slider from 'react-slick';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import images from '../../../../image';
 import Container from 'components/Container';
+import CallUs from 'components/CallUs';
 
 const Hero = () => {
   const theme = useTheme();
@@ -47,31 +47,7 @@ const Hero = () => {
           that can provide you with all types of powerpoint installations that are completed safely and efficiently.
         </Typography>
       </Box>
-      <Box
-        display="flex"
-        flexDirection={{ xs: 'column', sm: 'row' }}
-        alignItems={{ xs: 'stretched', sm: 'flex-start' }}
-      >
-        <Button
-          variant="contained"
-          color="primary"
-          size="large"
-          fullWidth={isMd ? false : true}
-        >
-          Schedule an Electrician
-        </Button>
-        {/* <Box
-          component={Button}
-          variant="outlined"
-          color="primary"
-          size="large"
-          marginTop={{ xs: 2, sm: 0 }}
-          marginLeft={{ sm: 2 }}
-          fullWidth={isMd ? false : true}
-        >
-          Browse spaces 
-          </Box>*/}
-      </Box>
+      <CallUs isMd={isMd}/>
     </Box>
   );
 

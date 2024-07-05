@@ -41,12 +41,12 @@ const NotFound = () => {
             >
               <Box>
                 <Typography
-                  variant="h1"
-                  component={'h1'}
+                  variant="h3"
+                  component={'h3'}
                   align={isMd ? 'left' : 'center'}
                   sx={{ fontWeight: 700 }}
                 >
-                  404
+                  Page not found
                 </Typography>
                 <Typography
                   variant="h6"
@@ -55,11 +55,6 @@ const NotFound = () => {
                   align={isMd ? 'left' : 'center'}
                 >
                   Oops! Looks like you followed a bad link.
-                  <br />
-                  If you think this is a problem with us, please{' '}
-                  <Link href={''} underline="none">
-                    tell us
-                  </Link>
                 </Typography>
                 <Box
                   marginTop={4}

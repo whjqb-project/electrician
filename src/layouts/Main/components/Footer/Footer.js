@@ -67,7 +67,7 @@ const Footer = () => {
                 href="https://material-ui.com/store/items/the-front-landing-page/"
                 size="small"
               >
-                Schedule an electrician
+                 021 688 156
               </Button>
             </Box>
           </Box>

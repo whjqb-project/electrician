@@ -17,14 +17,13 @@ const Main = () => {
   return (
     <Box>
       <Box
-        // display={'flex'}
         justifyContent={'space-between'}
         alignItems={{ xs: 'flex-start', sm: 'center' }}
         flexDirection={{ xs: 'column', sm: 'row' }}
       >
-        <Box alignItems="center" justifyContent="center" display="flex">
+        <Box marginBottom={4} alignItems="center" justifyContent="center" display="flex" >
           <Typography fontWeight={700} variant={'h4'} gutterBottom align='center'>
-            What’s involved in shop and office lighting fitouts?
+            Warehouse & Industrial Lighting Experts in Auckland
           </Typography>
         </Box>
       </Box>
@@ -33,30 +32,32 @@ const Main = () => {
         <Grid item xs={12} md={8}>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              When we provide a shop and office lighting fitout Auckland, we start with a site establishment, taking the time to learn your site layout,
-              to ensure the highest quality of safety and electrical work.
+              Mandarin Brothers Electrical is a team of highly qualified and experienced industrial electrical contractors that can provide LED warehouse and industrial lighting installation for businesses and commercial properties.
             </Typography>
           </Box>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              Mandarin Brothers Electrical Services has developed a turnkey solution for shop and office lighting fitouts.
+              Our professional Industrial Electricians, can provide you with installation, repairs and upgrades to your LED warehouse lighting.
             </Typography>
           </Box>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              This system, alongside trained and local Auckland electricians to implement it, ensures the delivery of productive,
-              professional and quality-driven shop and office fitout projects in a timely and cost-efficient manner.
+              Our industrial electrical contractors have the knowledge and expertise to provide you with quality advice on your warehouse lighting needs and building requirements.
             </Typography>
           </Box>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              Our team of shop and office lighting fitout experts implement the latest technology to enable us to deliver projects promptly and to streamline the process for a competitive edge.
+              Your local warehouse electricians can also provide thorough inspections to find any potential issues that may arise in the future.
             </Typography>
           </Box>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              Our team can provide expert advice from particular shop light installations and office lighting installations to shop lighting automation and office light automation to suit all your requirements.
-              Above all, we ensure your site is cleaned daily and left in a tidy manner.
+              You may be thinking, “my regular warehouse lighting is good enough.” However, poor lighting can actually affect workers productivity and increase the risk of accidents.
+            </Typography>
+          </Box>
+          <Box marginBottom={3}>
+            <Typography component={'p'}>
+              It is vital to have sufficient lighting within a warehouse or industrial space to maintain the safety of your workers.
             </Typography>
           </Box>
         </Grid>
@@ -65,7 +66,7 @@ const Main = () => {
             component={LazyLoadImage}
             height={1}
             width={1}
-            src={images.commercialElectricalFitouts.main}
+            src={images.warehouseLighting.main}
             alt="..."
             effect="blur"
             boxShadow={3}

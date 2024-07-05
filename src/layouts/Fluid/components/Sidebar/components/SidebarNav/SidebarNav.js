@@ -11,7 +11,7 @@ const SidebarNav = ({ pages }) => {
   const { mode } = theme.palette;
 
   const {
-    // landings: landingPages,
+    landings: landingPages,
     // secondary: secondaryPages,
     // company: companyPages,
     // account: accountPages,
@@ -44,6 +44,9 @@ const SidebarNav = ({ pages }) => {
         </Box>
       </Box>
       <Box paddingX={2} paddingY={2}>
+        <Box>
+          <NavItem title={'Home'} items={landingPages} />
+        </Box>
         <Box>
           <NavItem title={'Residential'} items={residentialPages} />
         </Box>

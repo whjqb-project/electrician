@@ -3,7 +3,6 @@ import Slider from 'react-slick';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-// import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
@@ -27,7 +26,7 @@ const Hero = () => {
             fontWeight: 700,
           }}
         >
-          Electrical{' '}
+          CCTV{' '}
           <Typography
             color={'primary'}
             component={'span'}
@@ -38,13 +37,13 @@ const Hero = () => {
               WebkitTextFillColor: 'transparent',
             }}
           >
-            Wiring and Rewiring
+            Security
           </Typography>
         </Typography>
       </Box>
       <Box marginBottom={3}>
         <Typography variant="h6" component="p" color="text.secondary">
-          Wire you waiting to call? Mandarin Brothers Electrical are the number one rewiring electricians in Auckland!
+        Mandarin Brothers Electrical is your leading local electrician for Residential & Commercial Security Systems in Auckland!
         </Typography>
       </Box>
       <CallUs isMd={isMd}/>
@@ -102,7 +101,7 @@ const Hero = () => {
             // key={item}
             component={LazyLoadImage}
             effect="blur"
-            src={images.electricalWiring.hero}
+            src={images.gardenLighting.hero}
             height={{ xs: 'auto', md: 1 }}
             maxHeight={{ xs: 300, md: 1 }}
             width={1}

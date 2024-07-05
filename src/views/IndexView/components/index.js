@@ -4,3 +4,5 @@ export { default as QuickStart } from './QuickStart';
 export { default as Features } from './Features';
 export { default as Benefits } from './Benefits';
 export { default as GetStarted } from './GetStarted';
+export { default as PageResidential } from './PageResidential';
+export { default as PageCommercial } from './PageCommercial';

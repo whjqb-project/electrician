@@ -1,15 +1,20 @@
 import React from 'react';
-import { alpha, useTheme } from '@mui/material/styles';
+import { 
+  // alpha, 
+  useTheme 
+} from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Main from 'layouts/Main';
 import Container from 'components/Container';
 import {
-  GetStarted,
-  Features,
-  QuickStart,
-  Services,
-  Benefits,
+  // GetStarted,
+  // Features,
+  // QuickStart,
+  // Services,
+  // Benefits,
   Hero,
+  PageResidential,
+  PageCommercial,
 } from './components';
 
 const IndexView = () => {
@@ -19,6 +24,36 @@ const IndexView = () => {
       <Main bgcolor={'background.paper'}>
         <Hero />
         <Container>
+          <PageResidential />
+        </Container>
+        <Box
+          position={'relative'}
+          sx={{
+            backgroundColor: theme.palette.alternate.main,
+          }}
+        >
+          <Container>
+            <PageCommercial />
+          </Container>
+          <Box
+            component={'svg'}
+            preserveAspectRatio="none"
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            viewBox="0 0 1920 100.1"
+            sx={{
+              width: '100%',
+              marginBottom: theme.spacing(-1),
+            }}
+          >
+            <path
+              fill={theme.palette.background.paper}
+              d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z"
+            ></path>
+          </Box>
+        </Box>
+        {/* <Container>
           <Services />
         </Container>
         <Box
@@ -60,7 +95,7 @@ const IndexView = () => {
         </Box>
         <Container>
           <GetStarted />
-        </Container>
+        </Container> */}
       </Main>
     </Box>
   );

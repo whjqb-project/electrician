@@ -11,7 +11,7 @@ import {
   WhoWeAre,
 } from './components';
 
-const About = () => {
+const CCTV = () => {
   const theme = useTheme();
 
   return (
@@ -30,4 +30,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default CCTV;

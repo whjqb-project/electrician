@@ -1,4 +1,37 @@
 const images = {
+  // home
+  home: [
+    {
+      group: [
+        {
+          cover: 'https://universalconnect.com.au/wp-content/uploads/2021/04/g1.jpg',
+        },
+        {
+          cover: 'https://waprofessionalelectrical.com.au/wp-content/uploads/2019/11/WAPE-residential-Home-Lighting-Australia.jpg',
+        },
+        {
+          cover: 'https://electricianservicesadelaide.au/wp-content/uploads/2024/05/electrician-services-adelaide-electrical-lighting.jpg',
+        },
+        
+      ],
+    },
+    {
+      group: [
+        {
+          cover: 'https://archonelectrical.com.au/wp-content/uploads/2023/05/power-points-installation-patterson-lakes-electrician-melbourne.jpg',
+        },
+        {
+          cover: 'https://e-greenelectrical.com.au/wp-content/uploads/2022/01/Garage-lights.jpg',
+        },
+        {
+          cover: 'https://archonelectrical.com.au/wp-content/uploads/2023/05/power-points-installation-patterson-lakes-electrician-melbourne.jpg',
+        },
+        {
+          cover: 'https://www.ipd.com.au/images/72803eec-85cb-4fa3-aa5c-96c231de78be.jpeg',
+        },
+      ],
+    },
+  ],
   // residential
   electricalFaultFinding: {
     hero: 'https://www.sparkieselectrical.com/wp-content/uploads/2018/02/04.jpg',
@@ -16,16 +49,15 @@ const images = {
     hero: 'https://handymanxtreme.com/wp-content/uploads/2021/09/ceiling-fan-xtreme.png',
     main: 'https://thedorkyelectrician.com/wp-content/uploads/2022/08/fanpicelectrician-2-919x1024.jpg',
   },
-  homeDataNetwork: {
-    hero: 'https://twinelectrics.com.au/wp-content/uploads/2021/01/Residential-Cabling-Setup-1024x768.jpg',
-    main: 'https://www.finnleyelectrical.com.au/wp-content/uploads/2022/05/Data-cabling-for-home.jpg',
-  },
+
   tvMounting: {
     hero: 'https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/how-to-mount-a-flat-screen-TV-on-a-wall-step-2.jpg',
     main: 'https://lumiproduct.oss-cn-hongkong.aliyuncs.com/2022/08/12/62f63415327ffa0002ab7b48.jpg?x-oss-process=image/resize,m_lfit,h_500,w_500',
   },
   powerpoint: {
-    hero: 'https://www.thelocalelectrician.com.au/wordpress/wp-content/uploads/How-To-Install-A-Powerpoint.png.webp',
+    // hero: 'https://www.thelocalelectrician.com.au/wordpress/wp-content/uploads/How-To-Install-A-Powerpoint.png.webp',
+    // hero: 'https://archonelectrical.com.au/wp-content/uploads/2023/05/power-points-installation-patterson-lakes-electrician-melbourne.jpg',
+    hero: 'https://www.paramountpower.com.au/wp-content/uploads/2020/10/iStock-1069897262-1024x683.jpg',
   },
   electricalWiring: {
     hero: 'https://www.thespruce.com/thmb/q9OWiEcb5PvKcTKusUMUBwXxsmY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/electrical-wiring-1152909_03_color_coding-49e8a933548d44c488495999ed836093.jpg',
@@ -52,7 +84,7 @@ const images = {
     main: 'https://bondilights.com.au/wp-content/uploads/2018/09/BondiLights-Vaucluse-5.png',
   },
   ledDownlight: {
-    hero: 'https://www.mjselectricalsupplies.com.au/assets/images/led-downlights.jpg',
+    hero: 'https://e-greenelectrical.com.au/wp-content/uploads/2023/12/7-best-recessed-LED-lights-to-buy-in-Australia.jpg',
     main: 'https://www.lightingstyles.co.uk/pics/100/LED_recessed_fire-rated_bathroom_waterproof_downlight.jpg',
   },
   // commercial
@@ -71,6 +103,19 @@ const images = {
   electricalLayoutPlanning: {
     hero: 'https://mintelectricalservices.com.au/wp-content/uploads/2019/06/We-provide-Electrical-Layout-Design-Service-in-Adelaide-and-surrpunding-suburbs.jpg',
     main: 'https://nz.rs-cdn.com/images/nwsjb-dl6lb/grid-gallery/75822f1625a6023d9f4d14637a456b18__7c8b/zoom591x591z100000cw591.jpg.webp, https://nz.rs-cdn.com/images/nwsjb-dl6lb/grid-gallery/75822f1625a6023d9f4d14637a456b18__250f/zoom591x591z100000cw591@2x.jpg.webp 2x',
+  },
+  homeTheatre: {
+    hero: 'https://shockproofelectrical.com.au/wp-content/uploads/2020/07/home-theatre-system-installation-melbourne.jpg',
+    main: '',
+  },
+  cctv: {
+    hero: 'https://www.selectsecurity.com.au/wp-content/uploads/2022/01/street-camera-surveillance-cctv-street-1024x683.jpg',
+    main: '',
+  },
+  dataNetwork: {
+    // hero: 'https://twinelectrics.com.au/wp-content/uploads/2021/01/Residential-Cabling-Setup-1024x768.jpg',
+    hero: 'https://www.propointelectrical.com.au/wp-content/uploads/2021/07/Data-Cabling-office-setup-scaled.jpeg',
+    main: 'https://www.finnleyelectrical.com.au/wp-content/uploads/2022/05/Data-cabling-for-home.jpg',
   },
 };
 

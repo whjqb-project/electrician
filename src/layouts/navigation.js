@@ -1,10 +1,10 @@
 const pages = {
-  landings: [
-    {
-      title: 'Home',
-      href: '/home',
-    },
-  ],
+  // landings: [
+  //   {
+  //     title: 'Home',
+  //     href: '/',
+  //   },
+  // ],
   residential: [
     {
       title: 'LED Downlight Installation',
@@ -51,10 +51,6 @@ const pages = {
       href: '/switchboard-upgrade',
     },
     {
-      title: 'Data & Network Cabling',
-      href: '/data-network-cabling',
-    },
-    {
       title: 'Exhaust Fan Installation',
       href: '/exhaust-fan-installation',
     },
@@ -70,10 +66,6 @@ const pages = {
       title: 'TV Wall Mounting',
       href: '/tv-wall-mounting',
     },
-    {
-      title: 'Home CCTV Security',
-      href: '/home-cctv',
-    }
   ],
   commercial: [
     {
@@ -92,28 +84,13 @@ const pages = {
       title: 'Warehouse & Industrial Lighting',
       href: '/warehouse-lighting',
     },
-  ],
-  company: [
     {
-      title: 'About: Startup',
-      href: '/about-side-cover',
-      isNew: true,
+      title: 'Data & Network Cabling',
+      href: '/data-network-cabling',
     },
     {
-      title: 'About',
-      href: '/about',
-    },
-    {
-      title: 'Contact: Map',
-      href: '/contact-sidebar-map',
-    },
-    {
-      title: 'Contact: Minimal',
-      href: '/contact-page-cover',
-    },
-    {
-      title: 'Contact: Startup',
-      href: '/contact-page',
+      title: 'CCTV Security',
+      href: '/cctv',
     },
   ],
 };

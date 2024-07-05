@@ -66,6 +66,16 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
           />
         </Box> */}
         <Box>
+          <Link
+            underline="none"
+            component="a"
+            href="/"
+            color={colorInvert ? 'common.white' : 'text.primary'}
+          >
+            Home
+          </Link>
+        </Box>
+        <Box marginLeft={4}>
           <NavItem
             title={'Residential'}
             id={'residential-pages'}
@@ -85,7 +95,7 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
           <Link
             underline="none"
             component="a"
-            href="/not-found-cover"
+            href="/past-projects"
             color={colorInvert ? 'common.white' : 'text.primary'}
           >
             Past Projects
@@ -95,10 +105,10 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
           <Link
             underline="none"
             component="a"
-            href="/not-found-cover"
+            href="/about"
             color={colorInvert ? 'common.white' : 'text.primary'}
           >
-            About US
+            About Us
           </Link>
         </Box>
         {/* <Box marginLeft={4}>

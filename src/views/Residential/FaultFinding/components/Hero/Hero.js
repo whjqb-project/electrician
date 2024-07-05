@@ -3,12 +3,11 @@ import Slider from 'react-slick';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import images from '../../../../image';
-
+import CallUs from 'components/CallUs';
 import Container from 'components/Container';
 
 const Hero = () => {
@@ -48,20 +47,7 @@ const Hero = () => {
           Unexpected electrical faults may leave your home or business without power or become a bigger safety concern such as a potential fire hazard.
         </Typography>
       </Box>
-      <Box
-        display="flex"
-        flexDirection={{ xs: 'column', sm: 'row' }}
-        alignItems={{ xs: 'stretched', sm: 'flex-start' }}
-      >
-        <Button
-          variant="contained"
-          color="primary"
-          size="large"
-          fullWidth={isMd ? false : true}
-        >
-          Schedule an Electrician
-        </Button>
-      </Box>
+      <CallUs isMd={isMd}/>
     </Box>
   );
 

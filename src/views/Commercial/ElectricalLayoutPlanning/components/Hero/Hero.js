@@ -3,12 +3,11 @@ import Slider from 'react-slick';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import images from '../../../../image';
-
+import CallUs from 'components/CallUs';
 import Container from 'components/Container';
 
 const Hero = () => {
@@ -47,20 +46,7 @@ const Hero = () => {
           Mandarin Brothers Electrical Services, our in-house electrical design team partners with our construction team to deliver smart electrical layout solutions for clients.
         </Typography>
       </Box>
-      <Box
-        display="flex"
-        flexDirection={{ xs: 'column', sm: 'row' }}
-        alignItems={{ xs: 'stretched', sm: 'flex-start' }}
-      >
-        <Button
-          variant="contained"
-          color="primary"
-          size="large"
-          fullWidth={isMd ? false : true}
-        >
-          Schedule an Electrician
-        </Button>
-      </Box>
+      <CallUs isMd={isMd}/>
     </Box>
   );
 
