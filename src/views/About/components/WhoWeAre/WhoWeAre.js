@@ -26,28 +26,28 @@ const WhoWeAre = () => {
         >
           <Box>
             <Typography variant={'h4'} gutterBottom sx={{ fontWeight: 700 }}>
-              Warehouse Lighting Service In Auckland
+              Residential & Commercial Electricians
             </Typography>
             <br />
 
             <Divider />
             <br />
             <Typography component={'p'}>
-              The benefits of having LED lighting for your warehouse is extremely beneficial when completed by a qualified industrial electrician.
+              Our commercial and residential electricians are highly experienced and qualified, offering an extensive range of electrical installation services,
+              repair, maintenance and upgrade projects for our clients.
             </Typography>
             <br />
             <Typography component={'p'}>
-              Our customer’s businesses save greatly on their energy bills due to their energy-efficient lighting installation.
-              LED lighting installation can save you up to 80% on your next energy bill. Ask your local Auckland warehouse electrician to make the switch today!
+              The Mandarin Brothers Electrical Services team all share the same passion of striving to provide professional, honest and reliable services for our customers so that we leave them with a positive experience to remember.
             </Typography>
             <br />
             <Typography component={'p'}>
-              LED lighting typically have a lifespan of approximately 50,000 hours, whereas standard halogen globes can only last for up to 4000 hours.
+              We provide unmatched workmanship and reasonable prices to meet and exceed our customer’s expectations.
+
             </Typography>
             <br />
             <Typography component={'p'}>
-              Quality LED lights will give you a much higher return on investment.
-              A typical retrofit of a standard business will pay itself off in 1-2 years and will begin to provide you with a financial return.
+              Our exceptional team understands that time is important, so we ensure prompt and efficient electrical services so that your home or business isn’t affected.
             </Typography>
           </Box>
         </Grid>
@@ -61,25 +61,25 @@ const WhoWeAre = () => {
         >
           <Box>
             <Typography variant={'h4'} gutterBottom sx={{ fontWeight: 700 }}>
-              Local Industrial Electrician in Auckland
+              Fully Licensed and Insured Team
             </Typography>
             <br />
             <Divider />
             <br />
             <Typography component={'p'}>
-              Whatever your LED installation requirements are, our industrial electrical contractors have a solution that is right for you.
+              Our licensed electricians have all the skills and know-how to meet your requirements and deliver exceptional electrical services.
             </Typography>
             <br />
             <Typography component={'p'}>
-              LED lighting is also more durable and so LED high bays have a higher resistance to vibrations and external stress for a warehouse.
+              The team clearly communicates the nature of the work being undertaken throughout the project and provide honest and helpful advice to find the best solution for you.
             </Typography>
             <br />
             <Typography component={'p'}>
-              Mandarin Brothers Electrical also provide a prompt response time and competitive pricing for your business.
+              We will also provide a concise and itemised quote before we arrange a survey for potential electrical work needed.
             </Typography>
             <br />
             <Typography component={'p'}>
-              Wondering where are industrial electricians near me? Look no further than Mandarin Brothers Electrical! Our warehouse electricians service across Auckland.
+              Our professionals treat your home as if it were their own and go the extra mile to ensure that they provide minimal disruption as well as ensure they leave the premises in a clean and tidy state.
             </Typography>
           </Box>
         </Grid>

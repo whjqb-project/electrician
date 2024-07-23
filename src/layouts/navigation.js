@@ -1,10 +1,4 @@
 const pages = {
-  // landings: [
-  //   {
-  //     title: 'Home',
-  //     href: '/',
-  //   },
-  // ],
   residential: [
     {
       title: 'LED Downlight Installation',

@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
-import images from '../../../../image';
+import images from '../../../image';
 import CallUs from 'components/CallUs';
 import Container from 'components/Container';
 
@@ -37,16 +37,16 @@ const Hero = () => {
               WebkitTextFillColor: 'transparent',
             }}
           >
-            Mandarin Brothers
+            Mandarin Brothers Electrical
           </Typography>
         </Typography>
       </Box>
       <Box marginBottom={3}>
         <Typography variant="h6" component="p" color="text.secondary">
-          Does your warehouse or industrial space need an Industrial Electrician.
+          One of the most trusted electrical companies in all of Auckland
         </Typography>
       </Box>
-      <CallUs isMd={isMd}/>
+      <CallUs isMd={isMd} />
     </Box>
   );
 

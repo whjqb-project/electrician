@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import images from '../../../../image';
+import images from '../../../image';
 
 const Main = () => {
   const theme = useTheme();
@@ -23,7 +23,7 @@ const Main = () => {
       >
         <Box marginBottom={4} alignItems="center" justifyContent="center" display="flex" >
           <Typography fontWeight={700} variant={'h4'} gutterBottom align='center'>
-            Warehouse & Industrial Lighting Experts in Auckland
+          Over 10 Years Industry Experience
           </Typography>
         </Box>
       </Box>
@@ -32,32 +32,17 @@ const Main = () => {
         <Grid item xs={12} md={8}>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              Mandarin Brothers Electrical is a team of highly qualified and experienced industrial electrical contractors that can provide LED warehouse and industrial lighting installation for businesses and commercial properties.
+            At Mandarin Brothers Electrical Services, we are one of the most trusted electrical companies in Auckland. 
             </Typography>
           </Box>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              Our professional Industrial Electricians, can provide you with installation, repairs and upgrades to your LED warehouse lighting.
+            Our team have over 10 years of combined experience in the industry, which shows our level of expertise. 
             </Typography>
           </Box>
           <Box marginBottom={3}>
             <Typography component={'p'}>
-              Our industrial electrical contractors have the knowledge and expertise to provide you with quality advice on your warehouse lighting needs and building requirements.
-            </Typography>
-          </Box>
-          <Box marginBottom={3}>
-            <Typography component={'p'}>
-              Your local warehouse electricians can also provide thorough inspections to find any potential issues that may arise in the future.
-            </Typography>
-          </Box>
-          <Box marginBottom={3}>
-            <Typography component={'p'}>
-              You may be thinking, “my regular warehouse lighting is good enough.” However, poor lighting can actually affect workers productivity and increase the risk of accidents.
-            </Typography>
-          </Box>
-          <Box marginBottom={3}>
-            <Typography component={'p'}>
-              It is vital to have sufficient lighting within a warehouse or industrial space to maintain the safety of your workers.
+            We pride ourselves on a reputation for exceptional reliability, high-quality workmanship, and value. 
             </Typography>
           </Box>
         </Grid>
